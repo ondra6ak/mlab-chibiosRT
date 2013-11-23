@@ -1,7 +1,7 @@
 /*
 Demo with the MLAB module IMU01A
 Module is connected to the second i2c bus
-Data are transmitted through the second serial bus
+Data are printed out through the second serial bus
 This demo reads and print out accelerometr and gyroscope axis and the temperature of the gyroscope chip
 
 Created by Ondra Sestak 2013
@@ -27,6 +27,7 @@ static msg_t heartBeat (void*Arg)
 
     palSetPad (GPIOB, LED_1);
     palClearPad (GPIOB, LED_2);
+
 	while (true)
 	{
 		palTogglePad (GPIOB, LED_1);
@@ -55,17 +56,12 @@ static msg_t gyroDemo (void*arg)
         tempRead (&I2CD2, IMU01A_GYRO, &temp);
         /*accelerometer reading*/
         accRead (&I2CD2, IMU01A_ACC, &acc_x, &acc_y, &acc_z);
-        /*printing out the measured values*/
-        chprintf ((BaseSequentialStream *)&SD2, "%d gyroX    ", gyro_x);
-        chprintf ((BaseSequentialStream *)&SD2, "%d gyroY    ", gyro_y);
-        chprintf ((BaseSequentialStream *)&SD2, "%d gyroZ    ", gyro_z);
-        chprintf ((BaseSequentialStream *)&SD2, "%d T    ", temp);
-        
-        /*printing out the measured values*/
-        chprintf ((BaseSequentialStream *)&SD2, "%d accX    ", acc_x);
-        chprintf ((BaseSequentialStream *)&SD2, "%d accY    ", acc_y);
-        chprintf ((BaseSequentialStream *)&SD2, "%d accZ    ", acc_z);
-        chprintf ((BaseSequentialStream *)&SD2, "\n\r");     	
+
+        /*printing out magnetometer values*/
+        chprintf ((BaseSequentialStream *)&SD2, "%d gX    %d gY    %d gZ    ", gyro_x, gyro_y, gyro_z);      
+        /*printing out accelerometer and temperature values*/
+        chprintf ((BaseSequentialStream *)&SD2, "%d aX    %d aY    %d aZ    ", acc_x, acc_y, acc_z);
+        chprintf ((BaseSequentialStream *)&SD2, "%d T    \n\r", temp);     	
     }
 }
 

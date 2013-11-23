@@ -8,6 +8,7 @@ Created by Ondra Sestak 2013
 #include <chprintf.h>
 #include <i2cGetErr.h>
 
+
 void i2cGetErr(I2CDriver *i2c_drv, SerialDriver *sd_drv)
 {
     chprintf ((BaseSequentialStream *)sd_drv, "Well, this is embarassing :'( - something is wrong with i2c...\r\n");
@@ -52,4 +53,6 @@ void i2cGetErr(I2CDriver *i2c_drv, SerialDriver *sd_drv)
     chprintf ((BaseSequentialStream *)&SD2, "Do you have everthig connected correctly?\r\n");
     chThdSleepMilliseconds (1000);
     chprintf ((BaseSequentialStream *)&SD2, "Are you sure that you haven't the data and clock pins set as outputs? ;)\r\n");
+
+    if (SYS_HALT) chSysHalt();
 }

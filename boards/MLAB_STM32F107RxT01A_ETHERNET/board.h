@@ -52,7 +52,6 @@
 #define SD_DETECT           5   /* PB5 */
 #define SPI1NSS             4   /* PA4 */
 #define SPI2NSS             12  /* PB12 */
-#define SPI3NSS             15  /* PA15 */
 
 /*
  * I/O ports initial setup, this configuration is established soon after reset
@@ -137,15 +136,15 @@
  * PC7  - Input with PU     (unconnected).
  * PC8  - Input with PU     (unconnected).
  * PC9  - Input with PU     (unconnected).
- * PC10 - Alternate output  (SPI3 SCK).
- * PC11 - Input with PU     (SPI3 MISO).
- * PC12 - Alternate output  (SPI3 MOSI).
+ * PC10 - Input with PU     (unconnected).
+ * PC11 - Input with PU     (unconnected).
+ * PC12 - Input with PU     (unconnected).
  * PC13 - Input with PU     (unconnected).
  * PC14 - Normal input      (OSC32 IN).
  * PC15 - Normal input      (OSC32 OUT).
  */
 #define VAL_GPIOCCRL            0x884488B8      /*  PC7...PC0 */
-#define VAL_GPIOCCRH            0x448B8B88      /* PC15...PC8 */
+#define VAL_GPIOCCRH            0x44888B88      /* PC15...PC8 */
 #define VAL_GPIOCODR            0xFFFFFF3F
 
 /*
@@ -155,20 +154,20 @@
  * PD2  - Input with PU     (unconnected).
  * PD3  - Input with PU     (unconnected).
  * PD4  - Input with PU     (unconnected).
- * PD5  - Alternate output  (USART2 TX, UEXT).
- * PD6  - Input with PU     (USART2 RX, UEXT).
+ * PD5  - Input with PU     (unconnected).
+ * PD6  - Input with PU     (unconnected).
  * PD7  - Push Pull output  (USB_VBUSON).
- * PD8  - Alternate output  (USART2 TX, remapped).
- * PD9  - Normal input      (USART2 RX, remapped).
+ * PD8  - Input with PU     (unconnected).
+ * PD9  - Input with PU     (unconnected).
  * PD10 - Input with PU     (unconnected).
- * PD11 - Normal input      (USART2 CTS, remapped).
- * PD12 - Alternate output  (USART2 RTS, remapped).
+ * PD11 - Input with PU     (unconnected).
+ * PD12 - Input with PU     (unconnected).
  * PD13 - Input with PU     (unconnected).
  * PD14 - Input with PU     (unconnected).
  * PD15 - Input with PU     (unconnected).
  */
-#define VAL_GPIODCRL            0x38B88888      /*  PD7...PD0 */
-#define VAL_GPIODCRH            0x888B484B      /* PD15...PD8 */
+#define VAL_GPIODCRL            0x38888888      /*  PD7...PD0 */
+#define VAL_GPIODCRH            0x88888888      /* PD15...PD8 */
 #define VAL_GPIODODR            0xFFFFFFFF
 
 /*
