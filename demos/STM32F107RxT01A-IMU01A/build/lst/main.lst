@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccZbUS3V.s 			page 1
+ARM GAS  /tmp/ccycZYPL.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
   55 0018 04AC     		add	r4, sp, #16
   56              	.LVL4:
   57              	.L2:
-ARM GAS  /tmp/ccZbUS3V.s 			page 2
+ARM GAS  /tmp/ccycZYPL.s 			page 2
 
 
   58              		.loc 1 53 0 discriminator 1
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  112 0086 0848     		ldr	r0, .L4+4
  113 0088 0D49     		ldr	r1, .L4+28
  114 008a FFF7FEFF 		bl	chprintf
-ARM GAS  /tmp/ccZbUS3V.s 			page 3
+ARM GAS  /tmp/ccycZYPL.s 			page 3
 
 
  115              	.LVL13:
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  169 000a 4FF44063 		mov	r3, #3072
  170 000e C4F20103 		movt	r3, 16385
  171 0012 4FF48072 		mov	r2, #256
-ARM GAS  /tmp/ccZbUS3V.s 			page 4
+ARM GAS  /tmp/ccycZYPL.s 			page 4
 
 
  172              		.loc 1 29 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  226 0004 FFF7FEFF 		bl	halInit
  227              	.LVL20:
  228              		.loc 1 75 0
-ARM GAS  /tmp/ccZbUS3V.s 			page 5
+ARM GAS  /tmp/ccycZYPL.s 			page 5
 
 
  229 0008 FFF7FEFF 		bl	chSysInit
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  283 0084 C0F20000 		movt	r0, #:upper16:.LANCHOR2
  284 0088 FFF7FEFF 		bl	chThdCreateStatic
  285              	.LVL28:
-ARM GAS  /tmp/ccZbUS3V.s 			page 6
+ARM GAS  /tmp/ccycZYPL.s 			page 6
 
 
  286              		.loc 1 86 0
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  322              	.LC6:
  323 0054 25642061 		.ascii	"%d accZ    \000"
  323      63635A20 
-ARM GAS  /tmp/ccZbUS3V.s 			page 7
+ARM GAS  /tmp/ccycZYPL.s 			page 7
 
 
  323      20202000 
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  365              		.file 22 "../../os/hal/include/hal.h"
  366              		.file 23 "../../os/kernel/include/chsys.h"
  367              		.section	.debug_info,"",%progbits
-ARM GAS  /tmp/ccZbUS3V.s 			page 8
+ARM GAS  /tmp/ccycZYPL.s 			page 8
 
 
  368              	.Ldebug_info0:
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  422 0078 04       		.uleb128 0x4
  423 0079 02       		.byte	0x2
  424 007a 07       		.byte	0x7
-ARM GAS  /tmp/ccZbUS3V.s 			page 9
+ARM GAS  /tmp/ccycZYPL.s 			page 9
 
 
  425 007b 22030000 		.4byte	.LASF8
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  479 00ea 28       		.byte	0x28
  480 00eb 49000000 		.4byte	0x49
  481 00ef 03       		.uleb128 0x3
-ARM GAS  /tmp/ccZbUS3V.s 			page 10
+ARM GAS  /tmp/ccycZYPL.s 			page 10
 
 
  482 00f0 3F050000 		.4byte	.LASF21
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  536 015f 5C       		.byte	0x5c
  537 0160 EF000000 		.4byte	0xef
  538 0164 02       		.byte	0x2
-ARM GAS  /tmp/ccZbUS3V.s 			page 11
+ARM GAS  /tmp/ccycZYPL.s 			page 11
 
 
  539 0165 23       		.byte	0x23
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  593 01c2 C3000000 		.4byte	0xc3
  594 01c6 02       		.byte	0x2
  595 01c7 23       		.byte	0x23
-ARM GAS  /tmp/ccZbUS3V.s 			page 12
+ARM GAS  /tmp/ccycZYPL.s 			page 12
 
 
  596 01c8 21       		.uleb128 0x21
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  650 0228 02       		.byte	0x2
  651 0229 23       		.byte	0x23
  652 022a 38       		.uleb128 0x38
-ARM GAS  /tmp/ccZbUS3V.s 			page 13
+ARM GAS  /tmp/ccycZYPL.s 			page 13
 
 
  653 022b 06       		.uleb128 0x6
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  707 0288 00       		.byte	0
  708 0289 09       		.uleb128 0x9
  709 028a 04       		.byte	0x4
-ARM GAS  /tmp/ccZbUS3V.s 			page 14
+ARM GAS  /tmp/ccycZYPL.s 			page 14
 
 
  710 028b 26010000 		.4byte	0x126
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  764 02f4 1901     		.2byte	0x119
  765 02f6 BC020000 		.4byte	0x2bc
  766 02fa 02       		.byte	0x2
-ARM GAS  /tmp/ccZbUS3V.s 			page 15
+ARM GAS  /tmp/ccycZYPL.s 			page 15
 
 
  767 02fb 23       		.byte	0x23
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  821 035a BC020000 		.4byte	0x2bc
  822 035e 02       		.byte	0x2
  823 035f 23       		.byte	0x23
-ARM GAS  /tmp/ccZbUS3V.s 			page 16
+ARM GAS  /tmp/ccycZYPL.s 			page 16
 
 
  824 0360 20       		.uleb128 0x20
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  878 03c5 CD030000 		.4byte	0x3cd
  879 03c9 02       		.byte	0x2
  880 03ca 23       		.byte	0x23
-ARM GAS  /tmp/ccZbUS3V.s 			page 17
+ARM GAS  /tmp/ccycZYPL.s 			page 17
 
 
  881 03cb 0C       		.uleb128 0xc
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  935 042e 09       		.uleb128 0x9
  936 042f 04       		.byte	0x4
  937 0430 DE030000 		.4byte	0x3de
-ARM GAS  /tmp/ccZbUS3V.s 			page 18
+ARM GAS  /tmp/ccycZYPL.s 			page 18
 
 
  938 0434 05       		.uleb128 0x5
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  992 049d AE060000 		.4byte	.LASF69
  993 04a1 09       		.uleb128 0x9
  994 04a2 04       		.byte	0x4
-ARM GAS  /tmp/ccZbUS3V.s 			page 19
+ARM GAS  /tmp/ccycZYPL.s 			page 19
 
 
  995 04a3 C9020000 		.4byte	0x2c9
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  1049 050f 06       		.uleb128 0x6
  1050 0510 29070000 		.4byte	.LASF75
  1051 0514 0A       		.byte	0xa
-ARM GAS  /tmp/ccZbUS3V.s 			page 20
+ARM GAS  /tmp/ccycZYPL.s 			page 20
 
 
  1052 0515 42       		.byte	0x42
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  1106 0575 CE040000 		.4byte	0x4ce
  1107 0579 09       		.uleb128 0x9
  1108 057a 04       		.byte	0x4
-ARM GAS  /tmp/ccZbUS3V.s 			page 21
+ARM GAS  /tmp/ccycZYPL.s 			page 21
 
 
  1109 057b 49000000 		.4byte	0x49
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  1163 05e4 12       		.uleb128 0x12
  1164 05e5 C7020000 		.4byte	0x2c7
  1165 05e9 12       		.uleb128 0x12
-ARM GAS  /tmp/ccZbUS3V.s 			page 22
+ARM GAS  /tmp/ccycZYPL.s 			page 22
 
 
  1166 05ea F4050000 		.4byte	0x5f4
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  1220 0659 5D060000 		.4byte	0x65d
  1221 065d 10       		.uleb128 0x10
  1222 065e 95050000 		.4byte	0x595
-ARM GAS  /tmp/ccZbUS3V.s 			page 23
+ARM GAS  /tmp/ccycZYPL.s 			page 23
 
 
  1223 0662 03       		.uleb128 0x3
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  1277 06cb 0C       		.byte	0xc
  1278 06cc F803     		.2byte	0x3f8
  1279 06ce 3C070000 		.4byte	0x73c
-ARM GAS  /tmp/ccZbUS3V.s 			page 24
+ARM GAS  /tmp/ccycZYPL.s 			page 24
 
 
  1280 06d2 0C       		.uleb128 0xc
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  1334 0739 23       		.byte	0x23
  1335 073a 18       		.uleb128 0x18
  1336 073b 00       		.byte	0
-ARM GAS  /tmp/ccZbUS3V.s 			page 25
+ARM GAS  /tmp/ccycZYPL.s 			page 25
 
 
  1337 073c 16       		.uleb128 0x16
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  1391 07a4 6D000000 		.4byte	0x6d
  1392 07a8 02       		.byte	0x2
  1393 07a9 23       		.byte	0x23
-ARM GAS  /tmp/ccZbUS3V.s 			page 26
+ARM GAS  /tmp/ccycZYPL.s 			page 26
 
 
  1394 07aa 0A       		.uleb128 0xa
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  1448 0810 02       		.byte	0x2
  1449 0811 23       		.byte	0x23
  1450 0812 18       		.uleb128 0x18
-ARM GAS  /tmp/ccZbUS3V.s 			page 27
+ARM GAS  /tmp/ccycZYPL.s 			page 27
 
 
  1451 0813 15       		.uleb128 0x15
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  1505 0879 E304     		.2byte	0x4e3
  1506 087b 6D060000 		.4byte	0x66d
  1507 087f 02       		.byte	0x2
-ARM GAS  /tmp/ccZbUS3V.s 			page 28
+ARM GAS  /tmp/ccycZYPL.s 			page 28
 
 
  1508 0880 23       		.byte	0x23
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  1562 08e3 6D000000 		.4byte	0x6d
  1563 08e7 02       		.byte	0x2
  1564 08e8 23       		.byte	0x23
-ARM GAS  /tmp/ccZbUS3V.s 			page 29
+ARM GAS  /tmp/ccycZYPL.s 			page 29
 
 
  1565 08e9 0E       		.uleb128 0xe
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  1619 094d 6B080000 		.4byte	0x86b
  1620 0951 08       		.uleb128 0x8
  1621 0952 0C       		.byte	0xc
-ARM GAS  /tmp/ccZbUS3V.s 			page 30
+ARM GAS  /tmp/ccycZYPL.s 			page 30
 
 
  1622 0953 0D       		.byte	0xd
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  1676 09b3 51090000 		.4byte	0x951
  1677 09b7 11       		.uleb128 0x11
  1678 09b8 01       		.byte	0x1
-ARM GAS  /tmp/ccZbUS3V.s 			page 31
+ARM GAS  /tmp/ccycZYPL.s 			page 31
 
 
  1679 09b9 FA000000 		.4byte	0xfa
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  1733 0a37 04       		.byte	0x4
  1734 0a38 170A0000 		.4byte	0xa17
  1735 0a3c 03       		.uleb128 0x3
-ARM GAS  /tmp/ccZbUS3V.s 			page 32
+ARM GAS  /tmp/ccycZYPL.s 			page 32
 
 
  1736 0a3d A2000000 		.4byte	.LASF115
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  1790 0aad 3A01     		.2byte	0x13a
  1791 0aaf 91000000 		.4byte	0x91
  1792 0ab3 19       		.uleb128 0x19
-ARM GAS  /tmp/ccZbUS3V.s 			page 33
+ARM GAS  /tmp/ccycZYPL.s 			page 33
 
 
  1793 0ab4 01       		.byte	0x1
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  1847 0b20 10       		.byte	0x10
  1848 0b21 5301     		.2byte	0x153
  1849 0b23 91000000 		.4byte	0x91
-ARM GAS  /tmp/ccZbUS3V.s 			page 34
+ARM GAS  /tmp/ccycZYPL.s 			page 34
 
 
  1850 0b27 02       		.byte	0x2
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  1904 0b91 10       		.byte	0x10
  1905 0b92 7401     		.2byte	0x174
  1906 0b94 D3030000 		.4byte	0x3d3
-ARM GAS  /tmp/ccZbUS3V.s 			page 35
+ARM GAS  /tmp/ccycZYPL.s 			page 35
 
 
  1907 0b98 02       		.byte	0x2
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  1961 0bfb 9801     		.2byte	0x198
  1962 0bfd 1B0C0000 		.4byte	0xc1b
  1963 0c01 02       		.byte	0x2
-ARM GAS  /tmp/ccZbUS3V.s 			page 36
+ARM GAS  /tmp/ccycZYPL.s 			page 36
 
 
  1964 0c02 23       		.byte	0x23
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2018 0c6b 00       		.uleb128 0
  2019 0c6c 06       		.uleb128 0x6
  2020 0c6d 08030000 		.4byte	.LASF155
-ARM GAS  /tmp/ccZbUS3V.s 			page 37
+ARM GAS  /tmp/ccycZYPL.s 			page 37
 
 
  2021 0c71 11       		.byte	0x11
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2075 0ccc 00       		.byte	0
  2076 0ccd 08       		.uleb128 0x8
  2077 0cce 0C       		.byte	0xc
-ARM GAS  /tmp/ccZbUS3V.s 			page 38
+ARM GAS  /tmp/ccycZYPL.s 			page 38
 
 
  2078 0ccf 12       		.byte	0x12
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2132 0d32 00       		.uleb128 0
  2133 0d33 06       		.uleb128 0x6
  2134 0d34 A9060000 		.4byte	.LASF85
-ARM GAS  /tmp/ccZbUS3V.s 			page 39
+ARM GAS  /tmp/ccycZYPL.s 			page 39
 
 
  2135 0d38 11       		.byte	0x11
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2189 0d95 00       		.byte	0
  2190 0d96 09       		.uleb128 0x9
  2191 0d97 04       		.byte	0x4
-ARM GAS  /tmp/ccZbUS3V.s 			page 40
+ARM GAS  /tmp/ccycZYPL.s 			page 40
 
 
  2192 0d98 9C0D0000 		.4byte	0xd9c
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2246 0e0d 1E       		.uleb128 0x1e
  2247 0e0e EA030000 		.4byte	.LASF169
  2248 0e12 01       		.byte	0x1
-ARM GAS  /tmp/ccZbUS3V.s 			page 41
+ARM GAS  /tmp/ccycZYPL.s 			page 41
 
 
  2249 0e13 2B       		.byte	0x2b
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2303 0e79 20       		.uleb128 0x20
  2304 0e7a 01       		.byte	0x1
  2305 0e7b 53       		.byte	0x53
-ARM GAS  /tmp/ccZbUS3V.s 			page 42
+ARM GAS  /tmp/ccycZYPL.s 			page 42
 
 
  2306 0e7c 02       		.byte	0x2
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2360 0ec4 91       		.byte	0x91
  2361 0ec5 64       		.sleb128 -28
  2362 0ec6 20       		.uleb128 0x20
-ARM GAS  /tmp/ccZbUS3V.s 			page 43
+ARM GAS  /tmp/ccycZYPL.s 			page 43
 
 
  2363 0ec7 01       		.byte	0x1
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2417 0f2a 30000000 		.4byte	.LC3
  2418 0f2e 00       		.byte	0
  2419 0f2f 1F       		.uleb128 0x1f
-ARM GAS  /tmp/ccZbUS3V.s 			page 44
+ARM GAS  /tmp/ccycZYPL.s 			page 44
 
 
  2420 0f30 82000000 		.4byte	.LVL12
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2474 0fa5 1D       		.uleb128 0x1d
  2475 0fa6 41726700 		.ascii	"Arg\000"
  2476 0faa 01       		.byte	0x1
-ARM GAS  /tmp/ccZbUS3V.s 			page 45
+ARM GAS  /tmp/ccycZYPL.s 			page 45
 
 
  2477 0fab 18       		.byte	0x18
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2531 1020 36000000 		.4byte	.LVL23
  2532 1024 8B120000 		.4byte	0x128b
  2533 1028 36100000 		.4byte	0x1036
-ARM GAS  /tmp/ccZbUS3V.s 			page 46
+ARM GAS  /tmp/ccycZYPL.s 			page 46
 
 
  2534 102c 20       		.uleb128 0x20
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2588 107f 8A100000 		.4byte	0x108a
  2589 1083 20       		.uleb128 0x20
  2590 1084 01       		.byte	0x1
-ARM GAS  /tmp/ccZbUS3V.s 			page 47
+ARM GAS  /tmp/ccycZYPL.s 			page 47
 
 
  2591 1085 50       		.byte	0x50
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2645 10d3 08       		.byte	0x8
  2646 10d4 40       		.byte	0x40
  2647 10d5 20       		.uleb128 0x20
-ARM GAS  /tmp/ccZbUS3V.s 			page 48
+ARM GAS  /tmp/ccycZYPL.s 			page 48
 
 
  2648 10d6 01       		.byte	0x1
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2702 1137 20110000 		.4byte	0x1120
  2703 113b 05       		.byte	0x5
  2704 113c 03       		.byte	0x3
-ARM GAS  /tmp/ccZbUS3V.s 			page 49
+ARM GAS  /tmp/ccycZYPL.s 			page 49
 
 
  2705 113d 00000000 		.4byte	gyroDemoWrkArea
@@ -2907,7 +2907,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2728 116c 01       		.byte	0x1
  2729 116d D2040000 		.4byte	.LASF180
  2730 1171 14       		.byte	0x14
- 2731 1172 0F       		.byte	0xf
+ 2731 1172 14       		.byte	0x14
  2732 1173 01       		.byte	0x1
  2733 1174 01       		.byte	0x1
  2734 1175 84110000 		.4byte	0x1184
@@ -2923,7 +2923,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2744 118b 01       		.byte	0x1
  2745 118c B6020000 		.4byte	.LASF181
  2746 1190 14       		.byte	0x14
- 2747 1191 0D       		.byte	0xd
+ 2747 1191 12       		.byte	0x12
  2748 1192 01       		.byte	0x1
  2749 1193 01       		.byte	0x1
  2750 1194 A3110000 		.4byte	0x11a3
@@ -2936,9 +2936,9 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2757 11a4 01       		.byte	0x1
  2758 11a5 2A010000 		.4byte	.LASF182
  2759 11a9 14       		.byte	0x14
- 2760 11aa 10       		.byte	0x10
+ 2760 11aa 15       		.byte	0x15
  2761 11ab 01       		.byte	0x1
-ARM GAS  /tmp/ccZbUS3V.s 			page 50
+ARM GAS  /tmp/ccycZYPL.s 			page 50
 
 
  2762 11ac 01       		.byte	0x1
@@ -2961,7 +2961,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2779 11d2 01       		.byte	0x1
  2780 11d3 A3050000 		.4byte	.LASF183
  2781 11d7 14       		.byte	0x14
- 2782 11d8 11       		.byte	0x11
+ 2782 11d8 16       		.byte	0x16
  2783 11d9 01       		.byte	0x1
  2784 11da 01       		.byte	0x1
  2785 11db EF110000 		.4byte	0x11ef
@@ -2976,7 +2976,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2794 11f0 01       		.byte	0x1
  2795 11f1 52070000 		.4byte	.LASF184
  2796 11f5 14       		.byte	0x14
- 2797 11f6 0E       		.byte	0xe
+ 2797 11f6 13       		.byte	0x13
  2798 11f7 01       		.byte	0x1
  2799 11f8 01       		.byte	0x1
  2800 11f9 17120000 		.4byte	0x1217
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2816 121e 26       		.byte	0x26
  2817 121f 01       		.byte	0x1
  2818 1220 01       		.byte	0x1
-ARM GAS  /tmp/ccZbUS3V.s 			page 51
+ARM GAS  /tmp/ccycZYPL.s 			page 51
 
 
  2819 1221 31120000 		.4byte	0x1231
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2873 1286 10       		.uleb128 0x10
  2874 1287 0E0D0000 		.4byte	0xd0e
  2875 128b 26       		.uleb128 0x26
-ARM GAS  /tmp/ccZbUS3V.s 			page 52
+ARM GAS  /tmp/ccycZYPL.s 			page 52
 
 
  2876 128c 01       		.byte	0x1
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2930 0005 13       		.uleb128 0x13
  2931 0006 0B       		.uleb128 0xb
  2932 0007 03       		.uleb128 0x3
-ARM GAS  /tmp/ccZbUS3V.s 			page 53
+ARM GAS  /tmp/ccycZYPL.s 			page 53
 
 
  2933 0008 0E       		.uleb128 0xe
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  2987 003e 0B       		.uleb128 0xb
  2988 003f 3A       		.uleb128 0x3a
  2989 0040 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccZbUS3V.s 			page 54
+ARM GAS  /tmp/ccycZYPL.s 			page 54
 
 
  2990 0041 3B       		.uleb128 0x3b
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3044 0077 49       		.uleb128 0x49
  3045 0078 13       		.uleb128 0x13
  3046 0079 00       		.byte	0
-ARM GAS  /tmp/ccZbUS3V.s 			page 55
+ARM GAS  /tmp/ccycZYPL.s 			page 55
 
 
  3047 007a 00       		.byte	0
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3101 00b0 01       		.uleb128 0x1
  3102 00b1 13       		.uleb128 0x13
  3103 00b2 00       		.byte	0
-ARM GAS  /tmp/ccZbUS3V.s 			page 56
+ARM GAS  /tmp/ccycZYPL.s 			page 56
 
 
  3104 00b3 00       		.byte	0
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3158 00e9 0B       		.uleb128 0xb
  3159 00ea 3B       		.uleb128 0x3b
  3160 00eb 05       		.uleb128 0x5
-ARM GAS  /tmp/ccZbUS3V.s 			page 57
+ARM GAS  /tmp/ccycZYPL.s 			page 57
 
 
  3161 00ec 01       		.uleb128 0x1
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3215 0122 19       		.uleb128 0x19
  3216 0123 04       		.uleb128 0x4
  3217 0124 01       		.byte	0x1
-ARM GAS  /tmp/ccZbUS3V.s 			page 58
+ARM GAS  /tmp/ccycZYPL.s 			page 58
 
 
  3218 0125 0B       		.uleb128 0xb
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3272 015c 05       		.uleb128 0x5
  3273 015d 00       		.byte	0
  3274 015e 03       		.uleb128 0x3
-ARM GAS  /tmp/ccZbUS3V.s 			page 59
+ARM GAS  /tmp/ccycZYPL.s 			page 59
 
 
  3275 015f 08       		.uleb128 0x8
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3329 019c 00       		.byte	0
  3330 019d 22       		.uleb128 0x22
  3331 019e 2E       		.uleb128 0x2e
-ARM GAS  /tmp/ccZbUS3V.s 			page 60
+ARM GAS  /tmp/ccycZYPL.s 			page 60
 
 
  3332 019f 01       		.byte	0x1
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3386 01d8 03       		.uleb128 0x3
  3387 01d9 08       		.uleb128 0x8
  3388 01da 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccZbUS3V.s 			page 61
+ARM GAS  /tmp/ccycZYPL.s 			page 61
 
 
  3389 01db 0B       		.uleb128 0xb
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3443 0211 29       		.uleb128 0x29
  3444 0212 2E       		.uleb128 0x2e
  3445 0213 00       		.byte	0
-ARM GAS  /tmp/ccZbUS3V.s 			page 62
+ARM GAS  /tmp/ccycZYPL.s 			page 62
 
 
  3446 0214 3F       		.uleb128 0x3f
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3500              	.LLST1:
  3501 002c 00000000 		.4byte	.LVL0
  3502 0030 04000000 		.4byte	.LVL1
-ARM GAS  /tmp/ccZbUS3V.s 			page 63
+ARM GAS  /tmp/ccycZYPL.s 			page 63
 
 
  3503 0034 0100     		.2byte	0x1
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3557 00b2 00000000 		.4byte	0
  3558 00b6 00000000 		.4byte	0
  3559              		.section	.debug_aranges,"",%progbits
-ARM GAS  /tmp/ccZbUS3V.s 			page 64
+ARM GAS  /tmp/ccycZYPL.s 			page 64
 
 
  3560 0000 2C000000 		.4byte	0x2c
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3599      736700
  3600              	.LASF14:
  3601 003d 75696E74 		.ascii	"uint64_t\000"
-ARM GAS  /tmp/ccZbUS3V.s 			page 65
+ARM GAS  /tmp/ccycZYPL.s 			page 65
 
 
  3601      36345F74 
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3626 00fb 72656164 		.ascii	"readt\000"
  3626      7400
  3627              	.LASF72:
-ARM GAS  /tmp/ccZbUS3V.s 			page 66
+ARM GAS  /tmp/ccycZYPL.s 			page 66
 
 
  3628 0101 715F7761 		.ascii	"q_waiting\000"
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3655 01b0 6C6F6E67 		.ascii	"long int\000"
  3655      20696E74 
  3655      00
-ARM GAS  /tmp/ccZbUS3V.s 			page 67
+ARM GAS  /tmp/ccycZYPL.s 			page 67
 
 
  3656              	.LASF18:
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3684              	.LASF188:
  3685 0240 63685379 		.ascii	"chSysInit\000"
  3685      73496E69 
-ARM GAS  /tmp/ccZbUS3V.s 			page 68
+ARM GAS  /tmp/ccycZYPL.s 			page 68
 
 
  3685      7400
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3715 02d0 705F6D73 		.ascii	"p_msgqueue\000"
  3715      67717565 
  3715      756500
-ARM GAS  /tmp/ccZbUS3V.s 			page 69
+ARM GAS  /tmp/ccycZYPL.s 			page 69
 
 
  3716              	.LASF166:
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3745 0362 55534152 		.ascii	"USART_TypeDef\000"
  3745      545F5479 
  3745      70654465 
-ARM GAS  /tmp/ccZbUS3V.s 			page 70
+ARM GAS  /tmp/ccycZYPL.s 			page 70
 
 
  3745      6600
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3774              	.LASF171:
  3775 03f8 6779726F 		.ascii	"gyro_z\000"
  3775      5F7A00
-ARM GAS  /tmp/ccZbUS3V.s 			page 71
+ARM GAS  /tmp/ccycZYPL.s 			page 71
 
 
  3776              	.LASF53:
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3804              	.LASF194:
  3805 048a 6D61696E 		.ascii	"main.c\000"
  3805      2E6300
-ARM GAS  /tmp/ccZbUS3V.s 			page 72
+ARM GAS  /tmp/ccycZYPL.s 			page 72
 
 
  3806              	.LASF133:
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3832              	.LASF102:
  3833 0521 52455345 		.ascii	"RESERVED6\000"
  3833      52564544 
-ARM GAS  /tmp/ccZbUS3V.s 			page 73
+ARM GAS  /tmp/ccycZYPL.s 			page 73
 
 
  3833      3600
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3862              	.LASF44:
  3863 05b5 705F6D74 		.ascii	"p_mtxlist\000"
  3863      786C6973 
-ARM GAS  /tmp/ccZbUS3V.s 			page 74
+ARM GAS  /tmp/ccycZYPL.s 			page 74
 
 
  3863      7400
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3893 064f 53445F55 		.ascii	"SD_UNINIT\000"
  3893      4E494E49 
  3893      5400
-ARM GAS  /tmp/ccZbUS3V.s 			page 75
+ARM GAS  /tmp/ccycZYPL.s 			page 75
 
 
  3894              	.LASF101:
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3923 06db 705F7265 		.ascii	"p_realprio\000"
  3923      616C7072 
  3923      696F00
-ARM GAS  /tmp/ccZbUS3V.s 			page 76
+ARM GAS  /tmp/ccycZYPL.s 			page 76
 
 
  3924              	.LASF120:
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3955      74517565 
  3955      756500
  3956              	.LASF96:
-ARM GAS  /tmp/ccZbUS3V.s 			page 77
+ARM GAS  /tmp/ccycZYPL.s 			page 77
 
 
  3957 0774 4F415231 		.ascii	"OAR1\000"
@@ -4610,31 +4610,31 @@ ARM GAS  /tmp/ccZbUS3V.s 			page 1
  3983      696E7466 
  3983      00
  3984              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.4 20130913 (release) [ARM/embedded-4_7-br
-ARM GAS  /tmp/ccZbUS3V.s 			page 78
+ARM GAS  /tmp/ccycZYPL.s 			page 78
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-     /tmp/ccZbUS3V.s:19     .text.gyroDemo:00000000 $t
-     /tmp/ccZbUS3V.s:24     .text.gyroDemo:00000000 gyroDemo
-     /tmp/ccZbUS3V.s:131    .text.gyroDemo:000000a4 $d
-     /tmp/ccZbUS3V.s:145    .text.heartBeat:00000000 $t
-     /tmp/ccZbUS3V.s:150    .text.heartBeat:00000000 heartBeat
-     /tmp/ccZbUS3V.s:199    .text.heartBeat:00000038 $d
-     /tmp/ccZbUS3V.s:205    .text.startup.main:00000000 $t
-     /tmp/ccZbUS3V.s:211    .text.startup.main:00000000 main
-     /tmp/ccZbUS3V.s:295    .rodata.i2cCfg:00000000 .LANCHOR0
-     /tmp/ccZbUS3V.s:331    .bss.heartWrkArea:00000000 .LANCHOR1
-     /tmp/ccZbUS3V.s:338    .bss.gyroDemoWrkArea:00000000 .LANCHOR2
-     /tmp/ccZbUS3V.s:294    .rodata.i2cCfg:00000000 $d
-     /tmp/ccZbUS3V.s:298    .rodata.i2cCfg:00000000 i2cCfg
-     /tmp/ccZbUS3V.s:305    .rodata.str1.4:00000000 $d
-     /tmp/ccZbUS3V.s:330    .bss.heartWrkArea:00000000 $d
-     /tmp/ccZbUS3V.s:334    .bss.heartWrkArea:00000000 heartWrkArea
-     /tmp/ccZbUS3V.s:337    .bss.gyroDemoWrkArea:00000000 $d
-     /tmp/ccZbUS3V.s:341    .bss.gyroDemoWrkArea:00000000 gyroDemoWrkArea
+     /tmp/ccycZYPL.s:19     .text.gyroDemo:00000000 $t
+     /tmp/ccycZYPL.s:24     .text.gyroDemo:00000000 gyroDemo
+     /tmp/ccycZYPL.s:131    .text.gyroDemo:000000a4 $d
+     /tmp/ccycZYPL.s:145    .text.heartBeat:00000000 $t
+     /tmp/ccycZYPL.s:150    .text.heartBeat:00000000 heartBeat
+     /tmp/ccycZYPL.s:199    .text.heartBeat:00000038 $d
+     /tmp/ccycZYPL.s:205    .text.startup.main:00000000 $t
+     /tmp/ccycZYPL.s:211    .text.startup.main:00000000 main
+     /tmp/ccycZYPL.s:295    .rodata.i2cCfg:00000000 .LANCHOR0
+     /tmp/ccycZYPL.s:331    .bss.heartWrkArea:00000000 .LANCHOR1
+     /tmp/ccycZYPL.s:338    .bss.gyroDemoWrkArea:00000000 .LANCHOR2
+     /tmp/ccycZYPL.s:294    .rodata.i2cCfg:00000000 $d
+     /tmp/ccycZYPL.s:298    .rodata.i2cCfg:00000000 i2cCfg
+     /tmp/ccycZYPL.s:305    .rodata.str1.4:00000000 $d
+     /tmp/ccycZYPL.s:330    .bss.heartWrkArea:00000000 $d
+     /tmp/ccycZYPL.s:334    .bss.heartWrkArea:00000000 heartWrkArea
+     /tmp/ccycZYPL.s:337    .bss.gyroDemoWrkArea:00000000 $d
+     /tmp/ccycZYPL.s:341    .bss.gyroDemoWrkArea:00000000 gyroDemoWrkArea
                      .debug_frame:00000010 $d
-     /tmp/ccZbUS3V.s:144    .text.gyroDemo:000000cc $t
+     /tmp/ccycZYPL.s:144    .text.gyroDemo:000000cc $t
 
 UNDEFINED SYMBOLS
 gyroInit
