@@ -43,7 +43,7 @@ void accRead (I2CDriver *i2c_drv, uint8_t addr, int16_t *acc_x, int16_t *acc_y, 
     *acc_z = (rx_data[4] << 8) | rx_data[5];
 }
 
-/*gyroscope configuring*/
+/*gyroscope configuration*/
 void gyroInit (I2CDriver *i2c_drv, uint8_t addr)
 {
     uint8_t tx_data[8]; 
