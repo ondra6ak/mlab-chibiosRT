@@ -25,53 +25,20 @@
 #ifndef _CHPRINTF_H_
 #define _CHPRINTF_H_
 
-#include <stdarg.h>
-
 /**
  * @brief   Float type support.
  */
 #if !defined(CHPRINTF_USE_FLOAT) || defined(__DOXYGEN__)
-#define CHPRINTF_USE_FLOAT          FALSE
+#define CHPRINTF_USE_FLOAT          TRUE
 #endif
 
 #ifdef __cplusplus
 extern "C" {
 #endif
-  void chvprintf(BaseSequentialStream *chp, const char *fmt, va_list ap);
+  void chprintf(BaseSequentialStream *chp, const char *fmt, ...);
 #ifdef __cplusplus
 }
 #endif
-
-/**
- * @brief   System formatted output function.
- * @details This function implements a minimal @p printf() like functionality
- *          with output on a @p BaseSequentialStream.
- *          The general parameters format is: %[-][width|*][.precision|*][l|L]p.
- *          The following parameter types (p) are supported:
- *          - <b>x</b> hexadecimal integer.
- *          - <b>X</b> hexadecimal long.
- *          - <b>o</b> octal integer.
- *          - <b>O</b> octal long.
- *          - <b>d</b> decimal signed integer.
- *          - <b>D</b> decimal signed long.
- *          - <b>u</b> decimal unsigned integer.
- *          - <b>U</b> decimal unsigned long.
- *          - <b>c</b> character.
- *          - <b>s</b> string.
- *          .
- *
- * @param[in] chp       pointer to a @p BaseSequentialStream implementing object
- * @param[in] fmt       formatting string
- *
- * @api
- */
-static inline void chprintf(BaseSequentialStream *chp, const char *fmt, ...) {
-  va_list ap;
-
-  va_start(ap, fmt);
-  chvprintf(chp, fmt, ap);
-  va_end(ap);
-}
 
 #endif /* _CHPRINTF_H_ */
 

@@ -20,7 +20,7 @@ static const I2CConfig i2cCfg = {
 static WORKING_AREA (heartWrkArea, 64);
 static msg_t heartBeat (void*Arg)
 {
-	chprintf ((BaseSequentialStream *)&SD2, "\n\rHello world!\n\r");
+	chprintf ((BaseChannel *)&SD2, "\n\rHello world!\n\r");
 
 	while (true)
 	{
