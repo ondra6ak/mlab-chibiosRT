@@ -24,8 +24,8 @@
 /*
  * Board identifier.
  */
-#define BOARD_MLAB_STM32F107RxT01A
-#define BOARD_NAME              "MLAB STM32F107RxT01A"
+#define BOARD_MLAB_STM32F107RxT01A_ETHERNET
+#define BOARD_NAME              "MLAB STM32F107RxT01A ETHERNET"
 
 /*
  * Board frequencies.
@@ -52,6 +52,7 @@
 #define SD_DETECT           5   /* PB5 */
 #define SPI1NSS             4   /* PA4 */
 #define SPI2NSS             12  /* PB12 */
+#define SPI3NSS             15  /* PA15 */
 
 /*
  * I/O ports initial setup, this configuration is established soon after reset
@@ -80,14 +81,14 @@
 /*
  * Port A setup.
  * Everything input with pull-up except:
- * PA0  - Normal input      (USART2 CTS).
- * PA1  - Alternate output  (USART2 RTS).
- * PA2  - Alternate output  (USART2 TX).
- * PA3  - Input with PU     (USART2 RX).
- * PA4  - Open Drain output (SPI1 NSS).
- * PA5  - Alternate output  (SPI1 SCK).
- * PA6  - Input with PU     (SPI1 MISO).
- * PA7  - Alternate output  (SPI1 MOSI).
+ * PA0  - Normal input      (WKUP).
+ * PA1  - Normal input      (ETH_RMII_REF_CLK).
+ * PA2  - Alternate output  (ETH_RMII_MDIO).
+ * PA3  - Input with PU     (unconnected).
+ * PA4  - Open Drain output (CS_MMC).
+ * PA5  - Input with PU     (unconnected).
+ * PA6  - Input with PU     (unconnected).
+ * PA7  - Normal input      (ETH_RMII_CRS_DV).
  * PA8  - Alternate output  (MCO).
  * PA9  - Normal input      (OTG_VBUS).
  * PA10 - Normal input      (OTG_ID).
@@ -97,7 +98,7 @@
  * PA14 - Normal input      (TCK).
  * PA15 - Normal input      (TDI).
  */
-#define VAL_GPIOACRL            0xB8B78BB4      /*  PA7...PA0 */
+#define VAL_GPIOACRL            0x48878B44      /*  PA7...PA0 */
 #define VAL_GPIOACRH            0x4444444B      /* PA15...PA8 */
 #define VAL_GPIOAODR            0xFFFFFFFF
 
@@ -114,37 +115,37 @@
  * PB8  - Push Pull output  (LED_1).
  * PB9  - Input with PU     (unconnected).
  * PB10 - Input with PU     (unconnected).
- * PB11 - Input with PU     (unconnected).
- * PB12 - Open Drain output (SPI2 NSS).
- * PB13 - Alternate output  (SPI2 SCK).
- * PB14 - Input with PU     (SPI2 MISO).
- * PB15 - Alternate output  (SPI2 MOSI).
+ * PB11 - Alternate output  (ETH_RMII_TX_EN).
+ * PB12 - Alternate output  (ETH_RMII_TXD0).
+ * PB13 - Alternate output  (ETH_RMII_TXD1).
+ * PB14 - Input with PU     (unconnected).
+ * PB15 - Push Pull output  (CS_UEXT).
  */
 #define VAL_GPIOBCRL            0x38844488      /*  PB7...PB0 */
-#define VAL_GPIOBCRH            0xB8B78883      /* PB15...PB8 */
+#define VAL_GPIOBCRH            0x38BBB883      /* PB15...PB8 */
 #define VAL_GPIOBODR            0xFFFFFFFF
 
 /*
  * Port C setup:
  * PC0  - Input with PU     (unconnected).
- * PC1  - Input with PU     (unconnected).
+ * PC1  - Alternate output  (ETH_MDC).
  * PC2  - Input with PU     (unconnected).
  * PC3  - Input with PU     (unconnected).
- * PC4  - Input with PU     (unconnected).
- * PC5  - Input with PU     (unconnected).
+ * PC4  - Normal input      (ETH_RMII_RXD0).
+ * PC5  - Normal input      (ETH_RMII_RXD1).
  * PC6  - Input with PU     (unconnected).
  * PC7  - Input with PU     (unconnected).
  * PC8  - Input with PU     (unconnected).
  * PC9  - Input with PU     (unconnected).
- * PC10 - Alternate output  (UART4 TX).
- * PC11 - Input with PU     (UART4 RX).
- * PC12 - Input with PU     (unconnected).
+ * PC10 - Alternate output  (SPI3 SCK).
+ * PC11 - Input with PU     (SPI3 MISO).
+ * PC12 - Alternate output  (SPI3 MOSI).
  * PC13 - Input with PU     (unconnected).
  * PC14 - Normal input      (OSC32 IN).
  * PC15 - Normal input      (OSC32 OUT).
  */
-#define VAL_GPIOCCRL            0x88888888      /*  PC7...PC0 */
-#define VAL_GPIOCCRH            0x44888B88      /* PC15...PC8 */
+#define VAL_GPIOCCRL            0x884488B8      /*  PC7...PC0 */
+#define VAL_GPIOCCRH            0x448B8B88      /* PC15...PC8 */
 #define VAL_GPIOCODR            0xFFFFFF3F
 
 /*
@@ -154,29 +155,30 @@
  * PD2  - Input with PU     (unconnected).
  * PD3  - Input with PU     (unconnected).
  * PD4  - Input with PU     (unconnected).
- * PD5  - Input with PU     (unconnected).
- * PD6  - Input with PU     (unconnected).
+ * PD5  - Alternate output  (USART2 TX, UEXT).
+ * PD6  - Input with PU     (USART2 RX, UEXT).
  * PD7  - Push Pull output  (USB_VBUSON).
- * PD8  - Input with PU     (unconnected).
- * PD9  - Input with PU     (unconnected).
+ * PD8  - Alternate output  (USART2 TX, remapped).
+ * PD9  - Normal input      (USART2 RX, remapped).
  * PD10 - Input with PU     (unconnected).
- * PD11 - Input with PU     (unconnected).
- * PD12 - Input with PU     (unconnected).
+ * PD11 - Normal input      (USART2 CTS, remapped).
+ * PD12 - Alternate output  (USART2 RTS, remapped).
  * PD13 - Input with PU     (unconnected).
  * PD14 - Input with PU     (unconnected).
  * PD15 - Input with PU     (unconnected).
  */
-#define VAL_GPIODCRL            0x38888888      /*  PD7...PD0 */
-#define VAL_GPIODCRH            0x88888888      /* PD15...PD8 */
+#define VAL_GPIODCRL            0x38B88888      /*  PD7...PD0 */
+#define VAL_GPIODCRH            0x888B484B      /* PD15...PD8 */
 #define VAL_GPIODODR            0xFFFFFFFF
 
 /*
  * Port E setup.
  * Everything input with pull-up except:
+ * PE14 - Normal input      (ETH_RMII_MDINT).
  * PE15 - Normal input      (USB_FAULT).
  */
 #define VAL_GPIOECRL            0x88888888      /*  PE7...PE0 */
-#define VAL_GPIOECRH            0x48888888      /* PE15...PE8 */
+#define VAL_GPIOECRH            0x44888888      /* PE15...PE8 */
 #define VAL_GPIOEODR            0xFFFFFFFF
 
  

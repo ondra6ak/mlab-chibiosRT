@@ -46,6 +46,7 @@ static msg_t gyroDemo (void*arg)
 	/*sensors initializing*/
     gyroInit (&I2CD2, IMU01A_GYRO);
     accInit (&I2CD2, IMU01A_ACC);
+    chprintf ((BaseSequentialStream *)&SD2, "Configuration done\n\r");
 
     while (true)
     {
