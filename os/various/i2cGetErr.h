@@ -1,5 +1,5 @@
 /*
-i2c troubleshooting library
+Part of i2c troubleshooting library
 
 Created by Ondra Sestak 2013
 */

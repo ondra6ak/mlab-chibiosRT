@@ -1,3 +1,8 @@
+/*
+Part of library for the MLAB module IMU01A
+
+Created by Ondra Sestak 2013
+*/
 #ifndef _IMU01A_H_
 #define _IMU01A_H_
 #endif
