@@ -44,9 +44,6 @@ static msg_t magDemo (void*arg)
 
     while (true)
     {
-    	x = 0;
-    	y = 0;
-    	z = 0;
         magRead(&I2CD2, MAG01A, &x, &y, &z);
         /*tisknuti namerenych hodnot*/
         chprintf ((BaseSequentialStream *)&SD2, "%d X     %d Y     %d Z\n\r", x, y, z);    	

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccrKZJoq.s 			page 1
+ARM GAS  /tmp/ccYP5gIp.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccrKZJoq.s 			page 1
   53              		@ link register save eliminated.
   54 0000 7047     		bx	lr
   55              		.cfi_endproc
-ARM GAS  /tmp/ccrKZJoq.s 			page 2
+ARM GAS  /tmp/ccYP5gIp.s 			page 2
 
 
   56              	.LFE64:
@@ -77,7 +77,7 @@ ARM GAS  /tmp/ccrKZJoq.s 			page 1
   66 0008 4B444444 		.word	1145324619
   67 000c FFFFFFFF 		.word	-1
   68 0010 88448438 		.word	948192392
-  69 0014 8388B7B8 		.word	-1195931517
+  69 0014 83FFB7B8 		.word	-1195901053
   70 0018 3FFFFFFF 		.word	-193
   71 001c 88888888 		.word	-2004318072
   72 0020 888B8844 		.word	1149799304
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccrKZJoq.s 			page 1
  107 0033 1A000000 		.4byte	.LASF0
  108 0037 03       		.uleb128 0x3
  109 0038 01       		.byte	0x1
-ARM GAS  /tmp/ccrKZJoq.s 			page 3
+ARM GAS  /tmp/ccYP5gIp.s 			page 3
 
 
  110 0039 06       		.byte	0x6
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccrKZJoq.s 			page 1
  164 009f 06       		.uleb128 0x6
  165 00a0 0C       		.byte	0xc
  166 00a1 03       		.byte	0x3
-ARM GAS  /tmp/ccrKZJoq.s 			page 4
+ARM GAS  /tmp/ccYP5gIp.s 			page 4
 
 
  167 00a2 38       		.byte	0x38
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccrKZJoq.s 			page 1
  221 0102 C5010000 		.4byte	.LASF17
  222 0106 03       		.byte	0x3
  223 0107 4E       		.byte	0x4e
-ARM GAS  /tmp/ccrKZJoq.s 			page 5
+ARM GAS  /tmp/ccYP5gIp.s 			page 5
 
 
  224 0108 D2000000 		.4byte	0xd2
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccrKZJoq.s 			page 1
  278 016e 00       		.sleb128 0
  279 016f 01       		.byte	0x1
  280 0170 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccrKZJoq.s 			page 6
+ARM GAS  /tmp/ccYP5gIp.s 			page 6
 
 
  281 0171 BC000000 		.4byte	.LASF21
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccrKZJoq.s 			page 1
  335 001b 0B       		.uleb128 0xb
  336 001c 03       		.uleb128 0x3
  337 001d 08       		.uleb128 0x8
-ARM GAS  /tmp/ccrKZJoq.s 			page 7
+ARM GAS  /tmp/ccYP5gIp.s 			page 7
 
 
  338 001e 00       		.byte	0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccrKZJoq.s 			page 1
  392 0054 0B       		.uleb128 0xb
  393 0055 49       		.uleb128 0x49
  394 0056 13       		.uleb128 0x13
-ARM GAS  /tmp/ccrKZJoq.s 			page 8
+ARM GAS  /tmp/ccYP5gIp.s 			page 8
 
 
  395 0057 38       		.uleb128 0x38
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccrKZJoq.s 			page 1
  449 0091 00       		.byte	0
  450 0092 0B       		.uleb128 0xb
  451 0093 2E       		.uleb128 0x2e
-ARM GAS  /tmp/ccrKZJoq.s 			page 9
+ARM GAS  /tmp/ccYP5gIp.s 			page 9
 
 
  452 0094 00       		.byte	0
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccrKZJoq.s 			page 1
  506 00cb 00       		.byte	0
  507 00cc 0E       		.uleb128 0xe
  508 00cd 26       		.uleb128 0x26
-ARM GAS  /tmp/ccrKZJoq.s 			page 10
+ARM GAS  /tmp/ccYP5gIp.s 			page 10
 
 
  509 00ce 00       		.byte	0
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccrKZJoq.s 			page 1
  558      746100
  559              	.LASF4:
  560 0007 73686F72 		.ascii	"short unsigned int\000"
-ARM GAS  /tmp/ccrKZJoq.s 			page 11
+ARM GAS  /tmp/ccYP5gIp.s 			page 11
 
 
  560      7420756E 
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccrKZJoq.s 			page 1
  580      66666572 
  580      00
  581              	.LASF23:
-ARM GAS  /tmp/ccrKZJoq.s 			page 12
+ARM GAS  /tmp/ccYP5gIp.s 			page 12
 
 
  582 00c9 474E5520 		.ascii	"GNU C 4.7.4 20130913 (release) [ARM/embedded-4_7-br"
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccrKZJoq.s 			page 1
  604      46313037 
  604      52785430 
  604      31412D2D 
-ARM GAS  /tmp/ccrKZJoq.s 			page 13
+ARM GAS  /tmp/ccYP5gIp.s 			page 13
 
 
  604      4D414730 
@@ -744,17 +744,17 @@ ARM GAS  /tmp/ccrKZJoq.s 			page 1
  616 01e8 5F426F6F 		.ascii	"_Bool\000"
  616      6C00
  617              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.4 20130913 (release) [ARM/embedded-4_7-br
-ARM GAS  /tmp/ccrKZJoq.s 			page 14
+ARM GAS  /tmp/ccYP5gIp.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 board.c
-     /tmp/ccrKZJoq.s:19     .text.__early_init:00000000 $t
-     /tmp/ccrKZJoq.s:25     .text.__early_init:00000000 __early_init
-     /tmp/ccrKZJoq.s:41     .text.boardInit:00000000 $t
-     /tmp/ccrKZJoq.s:47     .text.boardInit:00000000 boardInit
-     /tmp/ccrKZJoq.s:63     .rodata.pal_default_config:00000000 pal_default_config
-     /tmp/ccrKZJoq.s:60     .rodata.pal_default_config:00000000 $d
+     /tmp/ccYP5gIp.s:19     .text.__early_init:00000000 $t
+     /tmp/ccYP5gIp.s:25     .text.__early_init:00000000 __early_init
+     /tmp/ccYP5gIp.s:41     .text.boardInit:00000000 $t
+     /tmp/ccYP5gIp.s:47     .text.boardInit:00000000 boardInit
+     /tmp/ccYP5gIp.s:63     .rodata.pal_default_config:00000000 pal_default_config
+     /tmp/ccYP5gIp.s:60     .rodata.pal_default_config:00000000 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

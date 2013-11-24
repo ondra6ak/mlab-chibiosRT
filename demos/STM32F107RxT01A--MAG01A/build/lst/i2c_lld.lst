@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccmSYgV1.s 			page 1
+ARM GAS  /tmp/ccLOiU30.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
   55              		.loc 1 149 0
   56 0014 9982     		strh	r1, [r3, #20]	@ movhi
   57              		.loc 1 152 0
-ARM GAS  /tmp/ccmSYgV1.s 			page 2
+ARM GAS  /tmp/ccLOiU30.s 			page 2
 
 
   58 0016 2368     		ldr	r3, [r4, #0]
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  110              	.LVL5:
  111              	.LBB8:
  112              		.loc 1 166 0
-ARM GAS  /tmp/ccmSYgV1.s 			page 3
+ARM GAS  /tmp/ccLOiU30.s 			page 3
 
 
  113 0004 2023     		movs	r3, #32
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  165              		.p2align 4,,15
  166              		.thumb
  167              		.thumb_func
-ARM GAS  /tmp/ccmSYgV1.s 			page 4
+ARM GAS  /tmp/ccLOiU30.s 			page 4
 
 
  168              		.type	i2c_lld_serve_tx_end_irq, %function
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  219              		.thumb
  220              		.thumb_func
  221              		.type	i2c_lld_serve_rx_end_irq, %function
-ARM GAS  /tmp/ccmSYgV1.s 			page 5
+ARM GAS  /tmp/ccLOiU30.s 			page 5
 
 
  222              	i2c_lld_serve_rx_end_irq:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  276 003a 2180     		strh	r1, [r4, #0]	@ movhi
  277              		.loc 1 369 0
  278 003c 2288     		ldrh	r2, [r4, #0]
-ARM GAS  /tmp/ccmSYgV1.s 			page 6
+ARM GAS  /tmp/ccLOiU30.s 			page 6
 
 
  279 003e 90B2     		uxth	r0, r2
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  333              		.type	VectorC4, %function
  334              	VectorC4:
  335              	.LFB71:
-ARM GAS  /tmp/ccmSYgV1.s 			page 7
+ARM GAS  /tmp/ccLOiU30.s 			page 7
 
 
  336              		.loc 1 484 0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  390              	.LVL36:
  391              	.L24:
  392              		.loc 1 341 0
-ARM GAS  /tmp/ccmSYgV1.s 			page 8
+ARM GAS  /tmp/ccLOiU30.s 			page 8
 
 
  393 0038 16F00A0F 		tst	r6, #10
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  447 0088 2288     		ldrh	r2, [r4, #0]
  448 008a 22F48060 		bic	r0, r2, #1024
  449 008e 0104     		lsls	r1, r0, #16
-ARM GAS  /tmp/ccmSYgV1.s 			page 9
+ARM GAS  /tmp/ccLOiU30.s 			page 9
 
 
  450 0090 0B0C     		lsrs	r3, r1, #16
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  504 00e2 1A0C     		lsrs	r2, r3, #16
  505 00e4 A280     		strh	r2, [r4, #4]	@ movhi
  506              		.loc 1 323 0
-ARM GAS  /tmp/ccmSYgV1.s 			page 10
+ARM GAS  /tmp/ccLOiU30.s 			page 10
 
 
  507 00e6 0168     		ldr	r1, [r0, #0]
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  561              	.L44:
  562 0128 00000000 		.word	.LANCHOR0
  563              	.LBE25:
-ARM GAS  /tmp/ccmSYgV1.s 			page 11
+ARM GAS  /tmp/ccLOiU30.s 			page 11
 
 
  564              	.LBE27:
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  618 001c 87F0FF03 		eor	r3, r7, #255
  619 0020 9382     		strh	r3, [r2, #20]	@ movhi
  620              	.LVL49:
-ARM GAS  /tmp/ccmSYgV1.s 			page 12
+ARM GAS  /tmp/ccLOiU30.s 			page 12
 
 
  621              	.LBB44:
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  675 0070 43F00403 		orr	r3, r3, #4
  676              		.loc 1 422 0
  677 0074 20F40071 		bic	r1, r0, #512
-ARM GAS  /tmp/ccmSYgV1.s 			page 13
+ARM GAS  /tmp/ccLOiU30.s 			page 13
 
 
  678 0078 0804     		lsls	r0, r1, #16
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  732              	.LBB42:
  733              		.loc 1 437 0
  734 00c6 43F04002 		orr	r2, r3, #64
-ARM GAS  /tmp/ccmSYgV1.s 			page 14
+ARM GAS  /tmp/ccLOiU30.s 			page 14
 
 
  735 00ca A260     		str	r2, [r4, #8]
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  789              	i2c_lld_init:
  790              	.LFB73:
  791              		.loc 1 551 0
-ARM GAS  /tmp/ccmSYgV1.s 			page 15
+ARM GAS  /tmp/ccLOiU30.s 			page 15
 
 
  792              		.cfi_startproc
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  846              		.loc 1 588 0
  847 0002 9A22     		movs	r2, #154
  848              		.loc 1 585 0
-ARM GAS  /tmp/ccmSYgV1.s 			page 16
+ARM GAS  /tmp/ccLOiU30.s 			page 16
 
 
  849 0004 2DE9F041 		push	{r4, r5, r6, r7, r8, lr}
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  903 002c 92F80880 		ldrb	r8, [r2, #8]	@ zero_extendqisi2
  904              	.LBE54:
  905              	.LBE62:
-ARM GAS  /tmp/ccmSYgV1.s 			page 17
+ARM GAS  /tmp/ccLOiU30.s 			page 17
 
 
  906              		.loc 1 691 0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  960 0070 B8F1010F 		cmp	r8, #1
  961 0074 02D0     		beq	.L93
  962 0076 7C48     		ldr	r0, .L138
-ARM GAS  /tmp/ccmSYgV1.s 			page 18
+ARM GAS  /tmp/ccLOiU30.s 			page 18
 
 
  963 0078 FFF7FEFF 		bl	chDbgPanic
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  1017              	.LBE65:
  1018              	.LBB70:
  1019              	.LBB57:
-ARM GAS  /tmp/ccmSYgV1.s 			page 19
+ARM GAS  /tmp/ccLOiU30.s 			page 19
 
 
  1020              		.loc 1 255 0
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  1074 0106 0BDC     		bgt	.L110
  1075              		.loc 1 223 0
  1076 0108 A8F10200 		sub	r0, r8, #2
-ARM GAS  /tmp/ccmSYgV1.s 			page 20
+ARM GAS  /tmp/ccLOiU30.s 			page 20
 
 
  1077 010c 0128     		cmp	r0, #1
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  1131 015a FFF7FEFF 		bl	dmaStreamAllocate
  1132              	.LVL89:
  1133              		.loc 1 642 0
-ARM GAS  /tmp/ccmSYgV1.s 			page 21
+ARM GAS  /tmp/ccLOiU30.s 			page 21
 
 
  1134 015e 0028     		cmp	r0, #0
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  1188 01a6 9DE7     		b	.L104
  1189              	.LVL97:
  1190              	.L133:
-ARM GAS  /tmp/ccmSYgV1.s 			page 22
+ARM GAS  /tmp/ccLOiU30.s 			page 22
 
 
  1191              	.LBE69:
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  1245              		.loc 1 229 0
  1246 01fe 2348     		ldr	r0, .L138+36
  1247 0200 FFF7FEFF 		bl	chDbgPanic
-ARM GAS  /tmp/ccmSYgV1.s 			page 23
+ARM GAS  /tmp/ccLOiU30.s 			page 23
 
 
  1248              	.LVL107:
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  1302              	.LVL119:
  1303 025e 78E7     		b	.L88
  1304              	.LVL120:
-ARM GAS  /tmp/ccmSYgV1.s 			page 24
+ARM GAS  /tmp/ccLOiU30.s 			page 24
 
 
  1305              	.L111:
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  1359 0006 0446     		mov	r4, r0
  1360              		.loc 1 712 0
  1361 0008 0AD0     		beq	.L140
-ARM GAS  /tmp/ccmSYgV1.s 			page 25
+ARM GAS  /tmp/ccLOiU30.s 			page 25
 
 
  1362              		.loc 1 715 0
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  1414              		@ frame_needed = 0, uses_anonymous_args = 0
  1415              	.LVL128:
  1416 0000 2DE9F043 		push	{r4, r5, r6, r7, r8, r9, lr}
-ARM GAS  /tmp/ccmSYgV1.s 			page 26
+ARM GAS  /tmp/ccLOiU30.s 			page 26
 
 
  1417              	.LCFI9:
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  1471 0032 4FEA4901 		lsl	r1, r9, #1
  1472              		.loc 1 790 0
  1473 0036 1068     		ldr	r0, [r2, #0]
-ARM GAS  /tmp/ccmSYgV1.s 			page 27
+ARM GAS  /tmp/ccLOiU30.s 			page 27
 
 
  1474              		.loc 1 787 0
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  1528              	.LBE81:
  1529 0072 FFF7FEFF 		bl	dbg_check_lock
  1530              	.LVL141:
-ARM GAS  /tmp/ccmSYgV1.s 			page 28
+ARM GAS  /tmp/ccLOiU30.s 			page 28
 
 
  1531              		.loc 1 798 0
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  1585              	.LVL144:
  1586              		.loc 1 818 0
  1587 00bc 0499     		ldr	r1, [sp, #16]
-ARM GAS  /tmp/ccmSYgV1.s 			page 29
+ARM GAS  /tmp/ccLOiU30.s 			page 29
 
 
  1588 00be 11B1     		cbz	r1, .L158
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  1640      AFF30080 
  1641              		.align	2
  1642              		.p2align 4,,15
-ARM GAS  /tmp/ccmSYgV1.s 			page 30
+ARM GAS  /tmp/ccLOiU30.s 			page 30
 
 
  1643              		.global	i2c_lld_master_transmit_timeout
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  1697 002a 3346     		mov	r3, r6
  1698 002c FFF7FEFF 		bl	chVTSetI
  1699              	.LVL154:
-ARM GAS  /tmp/ccmSYgV1.s 			page 31
+ARM GAS  /tmp/ccLOiU30.s 			page 31
 
 
  1700              	.L177:
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  1754              	@ 888 "../../os/hal/platforms/STM32/I2Cv1/i2c_lld.c" 1
  1755 006a 83F31188 		msr     BASEPRI, r3
  1756              	@ 0 "" 2
-ARM GAS  /tmp/ccmSYgV1.s 			page 32
+ARM GAS  /tmp/ccLOiU30.s 			page 32
 
 
  1757              	.LVL161:
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  1811 00a4 FFF7FEFF 		bl	dbg_check_lock
  1812              	.LVL166:
  1813              		.loc 1 896 0
-ARM GAS  /tmp/ccmSYgV1.s 			page 33
+ARM GAS  /tmp/ccLOiU30.s 			page 33
 
 
  1814 00a8 691C     		adds	r1, r5, #1
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  1868 00ee 9AB2     		uxth	r2, r3
  1869 00f0 42F40070 		orr	r0, r2, #512
  1870 00f4 A080     		strh	r0, [r4, #4]	@ movhi
-ARM GAS  /tmp/ccmSYgV1.s 			page 34
+ARM GAS  /tmp/ccLOiU30.s 			page 34
 
 
  1871              		.loc 1 901 0
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  1908              	.LC4:
  1909 0058 6932635F 		.ascii	"i2c_lld_set_clock(), #2\000"
  1909      6C6C645F 
-ARM GAS  /tmp/ccmSYgV1.s 			page 35
+ARM GAS  /tmp/ccLOiU30.s 			page 35
 
 
  1909      7365745F 
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  1931      00000000 
  1931      00000000 
  1931      00000000 
-ARM GAS  /tmp/ccmSYgV1.s 			page 36
+ARM GAS  /tmp/ccLOiU30.s 			page 36
 
 
  1932              		.text
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  1986 0050 54000000 		.4byte	0x54
  1987 0054 04       		.uleb128 0x4
  1988 0055 01       		.byte	0x1
-ARM GAS  /tmp/ccmSYgV1.s 			page 37
+ARM GAS  /tmp/ccLOiU30.s 			page 37
 
 
  1989 0056 08       		.byte	0x8
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  2043 00bf A6030000 		.4byte	.LASF16
  2044 00c3 03       		.uleb128 0x3
  2045 00c4 DE090000 		.4byte	.LASF17
-ARM GAS  /tmp/ccmSYgV1.s 			page 38
+ARM GAS  /tmp/ccLOiU30.s 			page 38
 
 
  2046 00c8 04       		.byte	0x4
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  2100 013d 02       		.byte	0x2
  2101 013e 23       		.byte	0x23
  2102 013f 00       		.uleb128 0
-ARM GAS  /tmp/ccmSYgV1.s 			page 39
+ARM GAS  /tmp/ccLOiU30.s 			page 39
 
 
  2103 0140 06       		.uleb128 0x6
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  2157 01a0 23       		.byte	0x23
  2158 01a1 1C       		.uleb128 0x1c
  2159 01a2 06       		.uleb128 0x6
-ARM GAS  /tmp/ccmSYgV1.s 			page 40
+ARM GAS  /tmp/ccLOiU30.s 			page 40
 
 
  2160 01a3 9B0C0000 		.4byte	.LASF34
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  2214 0203 2C       		.uleb128 0x2c
  2215 0204 06       		.uleb128 0x6
  2216 0205 4B000000 		.4byte	.LASF40
-ARM GAS  /tmp/ccmSYgV1.s 			page 41
+ARM GAS  /tmp/ccLOiU30.s 			page 41
 
 
  2217 0209 06       		.byte	0x6
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  2271 0266 05       		.byte	0x5
  2272 0267 5B       		.byte	0x5b
  2273 0268 7E020000 		.4byte	0x27e
-ARM GAS  /tmp/ccmSYgV1.s 			page 42
+ARM GAS  /tmp/ccLOiU30.s 			page 42
 
 
  2274 026c 02       		.byte	0x2
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  2328 02cf 07       		.byte	0x7
  2329 02d0 0501     		.2byte	0x105
  2330 02d2 57030000 		.4byte	0x357
-ARM GAS  /tmp/ccmSYgV1.s 			page 43
+ARM GAS  /tmp/ccLOiU30.s 			page 43
 
 
  2331 02d6 0C       		.uleb128 0xc
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  2385 0337 23       		.byte	0x23
  2386 0338 18       		.uleb128 0x18
  2387 0339 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccmSYgV1.s 			page 44
+ARM GAS  /tmp/ccLOiU30.s 			page 44
 
 
  2388 033a 72313100 		.ascii	"r11\000"
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  2442 03a3 03       		.uleb128 0x3
  2443 03a4 390B0000 		.4byte	.LASF54
  2444 03a8 08       		.byte	0x8
-ARM GAS  /tmp/ccmSYgV1.s 			page 45
+ARM GAS  /tmp/ccLOiU30.s 			page 45
 
 
  2445 03a9 56       		.byte	0x56
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  2499 040c 08       		.uleb128 0x8
  2500 040d 1C       		.byte	0x1c
  2501 040e 09       		.byte	0x9
-ARM GAS  /tmp/ccmSYgV1.s 			page 46
+ARM GAS  /tmp/ccLOiU30.s 			page 46
 
 
  2502 040f 57       		.byte	0x57
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  2556 046f 64       		.byte	0x64
  2557 0470 0C040000 		.4byte	0x40c
  2558 0474 05       		.uleb128 0x5
-ARM GAS  /tmp/ccmSYgV1.s 			page 47
+ARM GAS  /tmp/ccLOiU30.s 			page 47
 
 
  2559 0475 70060000 		.4byte	.LASF67
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  2613 04db 13040000 		.4byte	.LASF73
  2614 04df 06       		.byte	0x6
  2615 04e0 A4       		.byte	0xa4
-ARM GAS  /tmp/ccmSYgV1.s 			page 48
+ARM GAS  /tmp/ccLOiU30.s 			page 48
 
 
  2616 04e1 BC020000 		.4byte	0x2bc
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  2670 0550 14       		.uleb128 0x14
  2671 0551 E20B0000 		.4byte	.LASF82
  2672 0555 7E       		.sleb128 -2
-ARM GAS  /tmp/ccmSYgV1.s 			page 49
+ARM GAS  /tmp/ccLOiU30.s 			page 49
 
 
  2673 0556 14       		.uleb128 0x14
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  2727 05c2 14       		.uleb128 0x14
  2728 05c3 E7070000 		.4byte	.LASF101
  2729 05c7 11       		.sleb128 17
-ARM GAS  /tmp/ccmSYgV1.s 			page 50
+ARM GAS  /tmp/ccLOiU30.s 			page 50
 
 
  2730 05c8 14       		.uleb128 0x14
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  2784 0634 14       		.uleb128 0x14
  2785 0635 A7060000 		.4byte	.LASF120
  2786 0639 24       		.sleb128 36
-ARM GAS  /tmp/ccmSYgV1.s 			page 51
+ARM GAS  /tmp/ccLOiU30.s 			page 51
 
 
  2787 063a 14       		.uleb128 0x14
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  2841 06a6 14       		.uleb128 0x14
  2842 06a7 8E060000 		.4byte	.LASF139
  2843 06ab 3E       		.sleb128 62
-ARM GAS  /tmp/ccmSYgV1.s 			page 52
+ARM GAS  /tmp/ccLOiU30.s 			page 52
 
 
  2844 06ac 14       		.uleb128 0x14
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  2898 071b 02       		.byte	0x2
  2899 071c 23       		.byte	0x23
  2900 071d 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccmSYgV1.s 			page 53
+ARM GAS  /tmp/ccLOiU30.s 			page 53
 
 
  2901 071e 00       		.byte	0
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  2955 0785 1A04     		.2byte	0x41a
  2956 0787 62000000 		.4byte	0x62
  2957 078b 02       		.byte	0x2
-ARM GAS  /tmp/ccmSYgV1.s 			page 54
+ARM GAS  /tmp/ccLOiU30.s 			page 54
 
 
  2958 078c 23       		.byte	0x23
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  3012 07ef CF060000 		.4byte	0x6cf
  3013 07f3 02       		.byte	0x2
  3014 07f4 23       		.byte	0x23
-ARM GAS  /tmp/ccmSYgV1.s 			page 55
+ARM GAS  /tmp/ccLOiU30.s 			page 55
 
 
  3015 07f5 18       		.uleb128 0x18
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  3069 085b 0B       		.byte	0xb
  3070 085c 4504     		.2byte	0x445
  3071 085e 7A030000 		.4byte	0x37a
-ARM GAS  /tmp/ccmSYgV1.s 			page 56
+ARM GAS  /tmp/ccLOiU30.s 			page 56
 
 
  3072 0862 02       		.byte	0x2
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  3126 08c5 4C04     		.2byte	0x44c
  3127 08c7 7A030000 		.4byte	0x37a
  3128 08cb 02       		.byte	0x2
-ARM GAS  /tmp/ccmSYgV1.s 			page 57
+ARM GAS  /tmp/ccLOiU30.s 			page 57
 
 
  3129 08cc 23       		.byte	0x23
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  3183 092e 120C0000 		.4byte	.LASF173
  3184 0932 0C       		.byte	0xc
  3185 0933 C3       		.byte	0xc3
-ARM GAS  /tmp/ccmSYgV1.s 			page 58
+ARM GAS  /tmp/ccLOiU30.s 			page 58
 
 
  3186 0934 6C090000 		.4byte	0x96c
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  3240 099a 86000000 		.4byte	0x86
  3241 099e 00       		.byte	0
  3242 099f 18       		.uleb128 0x18
-ARM GAS  /tmp/ccmSYgV1.s 			page 59
+ARM GAS  /tmp/ccLOiU30.s 			page 59
 
 
  3243 09a0 01       		.byte	0x1
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  3297 0a0c 35090000 		.4byte	.LASF191
  3298 0a10 0E       		.byte	0xe
  3299 0a11 4301     		.2byte	0x143
-ARM GAS  /tmp/ccmSYgV1.s 			page 60
+ARM GAS  /tmp/ccLOiU30.s 			page 60
 
 
  3300 0a13 EF090000 		.4byte	0x9ef
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  3354 0a7c 5801     		.2byte	0x158
  3355 0a7e 3F0A0000 		.4byte	0xa3f
  3356 0a82 17       		.uleb128 0x17
-ARM GAS  /tmp/ccmSYgV1.s 			page 61
+ARM GAS  /tmp/ccLOiU30.s 			page 61
 
 
  3357 0a83 4C020000 		.4byte	.LASF200
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  3411 0aee D7090000 		.4byte	0x9d7
  3412 0af2 02       		.byte	0x2
  3413 0af3 23       		.byte	0x23
-ARM GAS  /tmp/ccmSYgV1.s 			page 62
+ARM GAS  /tmp/ccLOiU30.s 			page 62
 
 
  3414 0af4 20       		.uleb128 0x20
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  3468 0b59 42080000 		.4byte	0x842
  3469 0b5d 1A       		.uleb128 0x1a
  3470 0b5e DC040000 		.4byte	.LASF213
-ARM GAS  /tmp/ccmSYgV1.s 			page 63
+ARM GAS  /tmp/ccLOiU30.s 			page 63
 
 
  3471 0b62 01       		.byte	0x1
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  3525 0bd7 01       		.byte	0x1
  3526 0bd8 9701     		.2byte	0x197
  3527 0bda 01       		.byte	0x1
-ARM GAS  /tmp/ccmSYgV1.s 			page 64
+ARM GAS  /tmp/ccLOiU30.s 			page 64
 
 
  3528 0bdb 01       		.byte	0x1
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  3582 0c55 01       		.byte	0x1
  3583 0c56 8F       		.byte	0x8f
  3584 0c57 570B0000 		.4byte	0xb57
-ARM GAS  /tmp/ccmSYgV1.s 			page 65
+ARM GAS  /tmp/ccLOiU30.s 			page 65
 
 
  3585 0c5b 41000000 		.4byte	.LLST2
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  3639 0cdf 00       		.sleb128 0
  3640 0ce0 00       		.byte	0
  3641 0ce1 29       		.uleb128 0x29
-ARM GAS  /tmp/ccmSYgV1.s 			page 66
+ARM GAS  /tmp/ccLOiU30.s 			page 66
 
 
  3642 0ce2 28000000 		.4byte	.LVL11
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  3696 0d63 570B0000 		.4byte	0xb57
  3697 0d67 01       		.byte	0x1
  3698 0d68 54       		.byte	0x54
-ARM GAS  /tmp/ccmSYgV1.s 			page 67
+ARM GAS  /tmp/ccLOiU30.s 			page 67
 
 
  3699 0d69 2A       		.uleb128 0x2a
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  3753 0df1 5E000000 		.4byte	.LVL25
  3754 0df5 DF160000 		.4byte	0x16df
  3755 0df9 00       		.byte	0
-ARM GAS  /tmp/ccmSYgV1.s 			page 68
+ARM GAS  /tmp/ccLOiU30.s 			page 68
 
 
  3756 0dfa 26       		.uleb128 0x26
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  3810 0e81 FFFF     		.2byte	0xffff
  3811 0e83 1A       		.byte	0x1a
  3812 0e84 9F       		.byte	0x9f
-ARM GAS  /tmp/ccmSYgV1.s 			page 69
+ARM GAS  /tmp/ccLOiU30.s 			page 69
 
 
  3813 0e85 35       		.uleb128 0x35
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  3867 0f12 01       		.byte	0x1
  3868 0f13 F201     		.2byte	0x1f2
  3869 0f15 01       		.byte	0x1
-ARM GAS  /tmp/ccmSYgV1.s 			page 70
+ARM GAS  /tmp/ccLOiU30.s 			page 70
 
 
  3870 0f16 00000000 		.4byte	.LFB72
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  3924 0fa4 34       		.uleb128 0x34
  3925 0fa5 1B0C0000 		.4byte	0xc1b
  3926 0fa9 ED020000 		.4byte	.LLST26
-ARM GAS  /tmp/ccmSYgV1.s 			page 71
+ARM GAS  /tmp/ccLOiU30.s 			page 71
 
 
  3927 0fad 00       		.byte	0
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  3981 1023 39       		.uleb128 0x39
  3982 1024 647000   		.ascii	"dp\000"
  3983 1027 01       		.byte	0x1
-ARM GAS  /tmp/ccmSYgV1.s 			page 72
+ARM GAS  /tmp/ccLOiU30.s 			page 72
 
 
  3984 1028 B9       		.byte	0xb9
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  4038 109e 01       		.byte	0x1
  4039 109f 4902     		.2byte	0x249
  4040 10a1 01       		.byte	0x1
-ARM GAS  /tmp/ccmSYgV1.s 			page 73
+ARM GAS  /tmp/ccLOiU30.s 			page 73
 
 
  4041 10a2 00000000 		.4byte	.LFB74
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  4095 1131 40000000 		.4byte	.LC3
  4096 1135 00       		.byte	0
  4097 1136 27       		.uleb128 0x27
-ARM GAS  /tmp/ccmSYgV1.s 			page 74
+ARM GAS  /tmp/ccLOiU30.s 			page 74
 
 
  4098 1137 C4000000 		.4byte	.LVL72
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  4152 11a9 27       		.uleb128 0x27
  4153 11aa 04020000 		.4byte	.LVL107
  4154 11ae 49170000 		.4byte	0x1749
-ARM GAS  /tmp/ccmSYgV1.s 			page 75
+ARM GAS  /tmp/ccLOiU30.s 			page 75
 
 
  4155 11b2 C0110000 		.4byte	0x11c0
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  4209 1230 49120000 		.4byte	0x1249
  4210 1234 28       		.uleb128 0x28
  4211 1235 01       		.byte	0x1
-ARM GAS  /tmp/ccmSYgV1.s 			page 76
+ARM GAS  /tmp/ccLOiU30.s 			page 76
 
 
  4212 1236 53       		.byte	0x53
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  4266 1284 00       		.byte	0
  4267 1285 27       		.uleb128 0x27
  4268 1286 82010000 		.4byte	.LVL92
-ARM GAS  /tmp/ccmSYgV1.s 			page 77
+ARM GAS  /tmp/ccLOiU30.s 			page 77
 
 
  4269 128a 85170000 		.4byte	0x1785
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  4323 12f2 84060000 		.4byte	.LLST42
  4324 12f6 27       		.uleb128 0x27
  4325 12f7 0E000000 		.4byte	.LVL123
-ARM GAS  /tmp/ccmSYgV1.s 			page 78
+ARM GAS  /tmp/ccLOiU30.s 			page 78
 
 
  4326 12fb 290C0000 		.4byte	0xc29
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  4380 136c CE060000 		.4byte	.LLST44
  4381 1370 2C       		.uleb128 0x2c
  4382 1371 5D070000 		.4byte	.LASF206
-ARM GAS  /tmp/ccmSYgV1.s 			page 79
+ARM GAS  /tmp/ccLOiU30.s 			page 79
 
 
  4383 1375 01       		.byte	0x1
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  4437 13f5 2F       		.uleb128 0x2f
  4438 13f6 746D7000 		.ascii	"tmp\000"
  4439 13fa 01       		.byte	0x1
-ARM GAS  /tmp/ccmSYgV1.s 			page 80
+ARM GAS  /tmp/ccLOiU30.s 			page 80
 
 
  4440 13fb 2003     		.2byte	0x320
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  4494 1467 2A       		.uleb128 0x2a
  4495 1468 2A000000 		.4byte	.LVL132
  4496 146c EC170000 		.4byte	0x17ec
-ARM GAS  /tmp/ccmSYgV1.s 			page 81
+ARM GAS  /tmp/ccLOiU30.s 			page 81
 
 
  4497 1470 2A       		.uleb128 0x2a
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  4551 14df 01       		.byte	0x1
  4552 14e0 5103     		.2byte	0x351
  4553 14e2 01       		.byte	0x1
-ARM GAS  /tmp/ccmSYgV1.s 			page 82
+ARM GAS  /tmp/ccLOiU30.s 			page 82
 
 
  4554 14e3 FA000000 		.4byte	0xfa
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  4608 1565 2D       		.uleb128 0x2d
  4609 1566 647000   		.ascii	"dp\000"
  4610 1569 01       		.byte	0x1
-ARM GAS  /tmp/ccmSYgV1.s 			page 83
+ARM GAS  /tmp/ccLOiU30.s 			page 83
 
 
  4611 156a 5503     		.2byte	0x355
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  4665 15f3 00       		.byte	0
  4666 15f4 27       		.uleb128 0x27
  4667 15f5 30000000 		.4byte	.LVL154
-ARM GAS  /tmp/ccmSYgV1.s 			page 84
+ARM GAS  /tmp/ccLOiU30.s 			page 84
 
 
  4668 15f9 C9170000 		.4byte	0x17c9
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  4722 1662 01       		.byte	0x1
  4723 1663 50       		.byte	0x50
  4724 1664 02       		.byte	0x2
-ARM GAS  /tmp/ccmSYgV1.s 			page 85
+ARM GAS  /tmp/ccLOiU30.s 			page 85
 
 
  4725 1665 91       		.byte	0x91
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  4779 16cd 42       		.uleb128 0x42
  4780 16ce EE030000 		.4byte	.LASF243
  4781 16d2 01       		.byte	0x1
-ARM GAS  /tmp/ccmSYgV1.s 			page 86
+ARM GAS  /tmp/ccLOiU30.s 			page 86
 
 
  4782 16d3 64       		.byte	0x64
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  4836 172b 01       		.byte	0x1
  4837 172c FA070000 		.4byte	.LASF249
  4838 1730 07       		.byte	0x7
-ARM GAS  /tmp/ccmSYgV1.s 			page 87
+ARM GAS  /tmp/ccLOiU30.s 			page 87
 
 
  4839 1731 FC01     		.2byte	0x1fc
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  4893 179a 86000000 		.4byte	0x86
  4894 179e 00       		.byte	0
  4895 179f 48       		.uleb128 0x48
-ARM GAS  /tmp/ccmSYgV1.s 			page 88
+ARM GAS  /tmp/ccLOiU30.s 			page 88
 
 
  4896 17a0 01       		.byte	0x1
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  4950 1802 C90B0000 		.4byte	.LASF260
  4951 1806 09       		.byte	0x9
  4952 1807 8C       		.byte	0x8c
-ARM GAS  /tmp/ccmSYgV1.s 			page 89
+ARM GAS  /tmp/ccLOiU30.s 			page 89
 
 
  4953 1808 01       		.byte	0x1
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  5007 0023 03       		.uleb128 0x3
  5008 0024 0E       		.uleb128 0xe
  5009 0025 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccmSYgV1.s 			page 90
+ARM GAS  /tmp/ccLOiU30.s 			page 90
 
 
  5010 0026 0B       		.uleb128 0xb
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  5064 005c 0B       		.uleb128 0xb
  5065 005d 3B       		.uleb128 0x3b
  5066 005e 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccmSYgV1.s 			page 91
+ARM GAS  /tmp/ccLOiU30.s 			page 91
 
 
  5067 005f 49       		.uleb128 0x49
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  5121 0095 08       		.uleb128 0x8
  5122 0096 3A       		.uleb128 0x3a
  5123 0097 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccmSYgV1.s 			page 92
+ARM GAS  /tmp/ccLOiU30.s 			page 92
 
 
  5124 0098 3B       		.uleb128 0x3b
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  5178 00ce 13       		.uleb128 0x13
  5179 00cf 00       		.byte	0
  5180 00d0 00       		.byte	0
-ARM GAS  /tmp/ccmSYgV1.s 			page 93
+ARM GAS  /tmp/ccLOiU30.s 			page 93
 
 
  5181 00d1 12       		.uleb128 0x12
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  5235 0107 13       		.uleb128 0x13
  5236 0108 38       		.uleb128 0x38
  5237 0109 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccmSYgV1.s 			page 94
+ARM GAS  /tmp/ccLOiU30.s 			page 94
 
 
  5238 010a 00       		.byte	0
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  5292 0140 01       		.uleb128 0x1
  5293 0141 13       		.uleb128 0x13
  5294 0142 00       		.byte	0
-ARM GAS  /tmp/ccmSYgV1.s 			page 95
+ARM GAS  /tmp/ccLOiU30.s 			page 95
 
 
  5295 0143 00       		.byte	0
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  5349 0179 00       		.byte	0
  5350 017a 03       		.uleb128 0x3
  5351 017b 08       		.uleb128 0x8
-ARM GAS  /tmp/ccmSYgV1.s 			page 96
+ARM GAS  /tmp/ccLOiU30.s 			page 96
 
 
  5352 017c 3A       		.uleb128 0x3a
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  5406 01b3 0B       		.uleb128 0xb
  5407 01b4 49       		.uleb128 0x49
  5408 01b5 13       		.uleb128 0x13
-ARM GAS  /tmp/ccmSYgV1.s 			page 97
+ARM GAS  /tmp/ccLOiU30.s 			page 97
 
 
  5409 01b6 02       		.uleb128 0x2
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  5463 01ee 00       		.byte	0
  5464 01ef 00       		.byte	0
  5465 01f0 28       		.uleb128 0x28
-ARM GAS  /tmp/ccmSYgV1.s 			page 98
+ARM GAS  /tmp/ccLOiU30.s 			page 98
 
 
  5466 01f1 8A8201   		.uleb128 0x410a
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  5520 022f 3A       		.uleb128 0x3a
  5521 0230 0B       		.uleb128 0xb
  5522 0231 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccmSYgV1.s 			page 99
+ARM GAS  /tmp/ccLOiU30.s 			page 99
 
 
  5523 0232 05       		.uleb128 0x5
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  5577 0268 0B       		.uleb128 0xb
  5578 0269 3B       		.uleb128 0x3b
  5579 026a 05       		.uleb128 0x5
-ARM GAS  /tmp/ccmSYgV1.s 			page 100
+ARM GAS  /tmp/ccLOiU30.s 			page 100
 
 
  5580 026b 27       		.uleb128 0x27
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  5634 02a2 00       		.byte	0
  5635 02a3 00       		.byte	0
  5636 02a4 35       		.uleb128 0x35
-ARM GAS  /tmp/ccmSYgV1.s 			page 101
+ARM GAS  /tmp/ccLOiU30.s 			page 101
 
 
  5637 02a5 05       		.uleb128 0x5
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  5691 02de 3A       		.uleb128 0x3a
  5692 02df 0B       		.uleb128 0xb
  5693 02e0 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccmSYgV1.s 			page 102
+ARM GAS  /tmp/ccLOiU30.s 			page 102
 
 
  5694 02e1 0B       		.uleb128 0xb
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  5748 0318 3D       		.uleb128 0x3d
  5749 0319 05       		.uleb128 0x5
  5750 031a 00       		.byte	0
-ARM GAS  /tmp/ccmSYgV1.s 			page 103
+ARM GAS  /tmp/ccLOiU30.s 			page 103
 
 
  5751 031b 03       		.uleb128 0x3
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  5805 0351 00       		.byte	0
  5806 0352 41       		.uleb128 0x41
  5807 0353 21       		.uleb128 0x21
-ARM GAS  /tmp/ccmSYgV1.s 			page 104
+ARM GAS  /tmp/ccLOiU30.s 			page 104
 
 
  5808 0354 00       		.byte	0
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  5862 038a 3B       		.uleb128 0x3b
  5863 038b 0B       		.uleb128 0xb
  5864 038c 27       		.uleb128 0x27
-ARM GAS  /tmp/ccmSYgV1.s 			page 105
+ARM GAS  /tmp/ccLOiU30.s 			page 105
 
 
  5865 038d 0C       		.uleb128 0xc
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  5919 03c3 49       		.uleb128 0x49
  5920 03c4 13       		.uleb128 0x13
  5921 03c5 3C       		.uleb128 0x3c
-ARM GAS  /tmp/ccmSYgV1.s 			page 106
+ARM GAS  /tmp/ccLOiU30.s 			page 106
 
 
  5922 03c6 0C       		.uleb128 0xc
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  5976 0017 08       		.sleb128 8
  5977 0018 00000000 		.4byte	0
  5978 001c 00000000 		.4byte	0
-ARM GAS  /tmp/ccmSYgV1.s 			page 107
+ARM GAS  /tmp/ccLOiU30.s 			page 107
 
 
  5979              	.LLST1:
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  6033 00a2 0100     		.2byte	0x1
  6034 00a4 54       		.byte	0x54
  6035 00a5 00000000 		.4byte	0
-ARM GAS  /tmp/ccmSYgV1.s 			page 108
+ARM GAS  /tmp/ccLOiU30.s 			page 108
 
 
  6036 00a9 00000000 		.4byte	0
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  6090 0139 55       		.byte	0x55
  6091 013a 00000000 		.4byte	0
  6092 013e 00000000 		.4byte	0
-ARM GAS  /tmp/ccmSYgV1.s 			page 109
+ARM GAS  /tmp/ccLOiU30.s 			page 109
 
 
  6093              	.LLST11:
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  6147 01cc F3       		.byte	0xf3
  6148 01cd 01       		.uleb128 0x1
  6149 01ce 51       		.byte	0x51
-ARM GAS  /tmp/ccmSYgV1.s 			page 110
+ARM GAS  /tmp/ccLOiU30.s 			page 110
 
 
  6150 01cf 9F       		.byte	0x9f
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  6204 0256 0A       		.byte	0xa
  6205 0257 FFFF     		.2byte	0xffff
  6206 0259 1A       		.byte	0x1a
-ARM GAS  /tmp/ccmSYgV1.s 			page 111
+ARM GAS  /tmp/ccLOiU30.s 			page 111
 
 
  6207 025a 9F       		.byte	0x9f
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  6261 02e9 00000000 		.4byte	0
  6262              	.LLST26:
  6263 02ed BA000000 		.4byte	.LVL50
-ARM GAS  /tmp/ccmSYgV1.s 			page 112
+ARM GAS  /tmp/ccLOiU30.s 			page 112
 
 
  6264 02f1 BD000000 		.4byte	.LVL51-1
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  6318 037e 54       		.byte	0x54
  6319 037f 60020000 		.4byte	.LVL120
  6320 0383 9C020000 		.4byte	.LFE74
-ARM GAS  /tmp/ccmSYgV1.s 			page 113
+ARM GAS  /tmp/ccLOiU30.s 			page 113
 
 
  6321 0387 0100     		.2byte	0x1
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  6375 0414 0200     		.2byte	0x2
  6376 0416 30       		.byte	0x30
  6377 0417 9F       		.byte	0x9f
-ARM GAS  /tmp/ccmSYgV1.s 			page 114
+ARM GAS  /tmp/ccLOiU30.s 			page 114
 
 
  6378 0418 3C020000 		.4byte	.LVL110
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  6432 049e 9F       		.byte	0x9f
  6433 049f F2010000 		.4byte	.LVL104
  6434 04a3 FC010000 		.4byte	.LVL105
-ARM GAS  /tmp/ccmSYgV1.s 			page 115
+ARM GAS  /tmp/ccLOiU30.s 			page 115
 
 
  6435 04a7 0100     		.2byte	0x1
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  6489 0531 44000000 		.4byte	.LVL64
  6490 0535 4E000000 		.4byte	.LVL65
  6491 0539 0500     		.2byte	0x5
-ARM GAS  /tmp/ccmSYgV1.s 			page 116
+ARM GAS  /tmp/ccLOiU30.s 			page 116
 
 
  6492 053b 74       		.byte	0x74
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  6546 05c0 0100     		.2byte	0x1
  6547 05c2 51       		.byte	0x51
  6548 05c3 00000000 		.4byte	0
-ARM GAS  /tmp/ccmSYgV1.s 			page 117
+ARM GAS  /tmp/ccLOiU30.s 			page 117
 
 
  6549 05c7 00000000 		.4byte	0
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  6603 064e 0100     		.2byte	0x1
  6604 0650 50       		.byte	0x50
  6605 0651 58020000 		.4byte	.LVL117
-ARM GAS  /tmp/ccmSYgV1.s 			page 118
+ARM GAS  /tmp/ccLOiU30.s 			page 118
 
 
  6606 0655 5A020000 		.4byte	.LVL118
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  6660 06e1 0100     		.2byte	0x1
  6661 06e3 56       		.byte	0x56
  6662 06e4 CC000000 		.4byte	.LVL146
-ARM GAS  /tmp/ccmSYgV1.s 			page 119
+ARM GAS  /tmp/ccLOiU30.s 			page 119
 
 
  6663 06e8 CE000000 		.4byte	.LVL147
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  6717 0770 00000000 		.4byte	.LVL128
  6718 0774 16000000 		.4byte	.LVL130
  6719 0778 0100     		.2byte	0x1
-ARM GAS  /tmp/ccmSYgV1.s 			page 120
+ARM GAS  /tmp/ccLOiU30.s 			page 120
 
 
  6720 077a 53       		.byte	0x53
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  6774 0808 06000000 		.4byte	.LCFI12
  6775 080c 18010000 		.4byte	.LFE77
  6776 0810 0200     		.2byte	0x2
-ARM GAS  /tmp/ccmSYgV1.s 			page 121
+ARM GAS  /tmp/ccLOiU30.s 			page 121
 
 
  6777 0812 7D       		.byte	0x7d
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  6831 0899 18010000 		.4byte	.LFE77
  6832 089d 0100     		.2byte	0x1
  6833 089f 5A       		.byte	0x5a
-ARM GAS  /tmp/ccmSYgV1.s 			page 122
+ARM GAS  /tmp/ccLOiU30.s 			page 122
 
 
  6834 08a0 00000000 		.4byte	0
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  6888 000b 00       		.byte	0
  6889 000c 0000     		.2byte	0
  6890 000e 0000     		.2byte	0
-ARM GAS  /tmp/ccmSYgV1.s 			page 123
+ARM GAS  /tmp/ccLOiU30.s 			page 123
 
 
  6891 0010 00000000 		.4byte	.LFB63
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  6945 0070 0E000000 		.4byte	.LBB35
  6946 0074 10000000 		.4byte	.LBE35
  6947 0078 1A000000 		.4byte	.LBB43
-ARM GAS  /tmp/ccmSYgV1.s 			page 124
+ARM GAS  /tmp/ccLOiU30.s 			page 124
 
 
  6948 007c 1C000000 		.4byte	.LBE43
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7002 0154 9C020000 		.4byte	.LBE60
  7003 0158 00000000 		.4byte	0
  7004 015c 00000000 		.4byte	0
-ARM GAS  /tmp/ccmSYgV1.s 			page 125
+ARM GAS  /tmp/ccLOiU30.s 			page 125
 
 
  7005 0160 C4000000 		.4byte	.LBB65
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7059 0238 00000000 		.4byte	.LFB76
  7060 023c 04010000 		.4byte	.LFE76
  7061 0240 00000000 		.4byte	.LFB77
-ARM GAS  /tmp/ccmSYgV1.s 			page 126
+ARM GAS  /tmp/ccLOiU30.s 			page 126
 
 
  7062 0244 18010000 		.4byte	.LFE77
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7091      355F4952 
  7091      516E00
  7092              	.LASF53:
-ARM GAS  /tmp/ccmSYgV1.s 			page 127
+ARM GAS  /tmp/ccLOiU30.s 			page 127
 
 
  7093 0077 76746675 		.ascii	"vtfunc_t\000"
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7116      6973696F 
  7116      6E203230 
  7116      32363031 
-ARM GAS  /tmp/ccmSYgV1.s 			page 128
+ARM GAS  /tmp/ccLOiU30.s 			page 128
 
 
  7117              	.LASF230:
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7143      73746F70 
  7143      00
  7144              	.LASF256:
-ARM GAS  /tmp/ccmSYgV1.s 			page 129
+ARM GAS  /tmp/ccLOiU30.s 			page 129
 
 
  7145 01fd 6E766963 		.ascii	"nvicDisableVector\000"
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7171      65642063 
  7171      68617200 
  7172              	.LASF37:
-ARM GAS  /tmp/ccmSYgV1.s 			page 130
+ARM GAS  /tmp/ccLOiU30.s 			page 130
 
 
  7173 029e 705F7072 		.ascii	"p_preempt\000"
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7199      52564544 
  7199      3800
  7200              	.LASF56:
-ARM GAS  /tmp/ccmSYgV1.s 			page 131
+ARM GAS  /tmp/ccLOiU30.s 			page 131
 
 
  7201 034f 76745F70 		.ascii	"vt_prev\000"
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7225      324300
  7226              	.LASF75:
  7227 03e9 63686172 		.ascii	"char\000"
-ARM GAS  /tmp/ccmSYgV1.s 			page 132
+ARM GAS  /tmp/ccLOiU30.s 			page 132
 
 
  7227      00
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7255 047d 72656753 		.ascii	"regSR2\000"
  7255      523200
  7256              	.LASF244:
-ARM GAS  /tmp/ccmSYgV1.s 			page 133
+ARM GAS  /tmp/ccLOiU30.s 			page 133
 
 
  7257 0484 6462675F 		.ascii	"dbg_check_lock_from_isr\000"
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7281      5F436861 
  7281      6E6E656C 
  7281      325F4952 
-ARM GAS  /tmp/ccmSYgV1.s 			page 134
+ARM GAS  /tmp/ccLOiU30.s 			page 134
 
 
  7281      516E00
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7303      6E656C00 
  7304              	.LASF106:
  7305 05db 43414E31 		.ascii	"CAN1_SCE_IRQn\000"
-ARM GAS  /tmp/ccmSYgV1.s 			page 135
+ARM GAS  /tmp/ccLOiU30.s 			page 135
 
 
  7305      5F534345 
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7330              	.LASF67:
  7331 0670 4D757465 		.ascii	"Mutex\000"
  7331      7800
-ARM GAS  /tmp/ccmSYgV1.s 			page 136
+ARM GAS  /tmp/ccLOiU30.s 			page 136
 
 
  7332              	.LASF132:
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7357      74617465 
  7357      5F7400
  7358              	.LASF204:
-ARM GAS  /tmp/ccmSYgV1.s 			page 137
+ARM GAS  /tmp/ccLOiU30.s 			page 137
 
 
  7359 071d 6D757465 		.ascii	"mutex\000"
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7385      00
  7386              	.LASF45:
  7387 07ab 705F6D70 		.ascii	"p_mpool\000"
-ARM GAS  /tmp/ccmSYgV1.s 			page 138
+ARM GAS  /tmp/ccLOiU30.s 			page 138
 
 
  7387      6F6F6C00 
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7413      435200
  7414              	.LASF264:
  7415 0844 4952516E 		.ascii	"IRQn\000"
-ARM GAS  /tmp/ccmSYgV1.s 			page 139
+ARM GAS  /tmp/ccLOiU30.s 			page 139
 
 
  7415      00
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7437      69737200 
  7438              	.LASF124:
  7439 08fa 45585449 		.ascii	"EXTI15_10_IRQn\000"
-ARM GAS  /tmp/ccmSYgV1.s 			page 140
+ARM GAS  /tmp/ccLOiU30.s 			page 140
 
 
  7439      31355F31 
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7465 0993 76656374 		.ascii	"vector\000"
  7465      6F7200
  7466              	.LASF161:
-ARM GAS  /tmp/ccmSYgV1.s 			page 141
+ARM GAS  /tmp/ccLOiU30.s 			page 141
 
 
  7467 099a 4932435F 		.ascii	"I2C_TypeDef\000"
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7495      335F4952 
  7495      516E00
  7496              	.LASF171:
-ARM GAS  /tmp/ccmSYgV1.s 			page 142
+ARM GAS  /tmp/ccLOiU30.s 			page 142
 
 
  7497 0a2d 5243435F 		.ascii	"RCC_TypeDef\000"
@@ -8518,7 +8518,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7523      7400
  7524              	.LASF96:
  7525 0ac0 444D4131 		.ascii	"DMA1_Channel2_IRQn\000"
-ARM GAS  /tmp/ccmSYgV1.s 			page 143
+ARM GAS  /tmp/ccLOiU30.s 			page 143
 
 
  7525      5F436861 
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7549 0b61 54687265 		.ascii	"ThreadsQueue\000"
  7549      61647351 
  7549      75657565 
-ARM GAS  /tmp/ccmSYgV1.s 			page 144
+ARM GAS  /tmp/ccLOiU30.s 			page 144
 
 
  7549      00
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7573      655F7478 
  7573      5F656E64 
  7574              	.LASF173:
-ARM GAS  /tmp/ccmSYgV1.s 			page 145
+ARM GAS  /tmp/ccLOiU30.s 			page 145
 
 
  7575 0c12 69666372 		.ascii	"ifcr\000"
@@ -8697,51 +8697,51 @@ ARM GAS  /tmp/ccmSYgV1.s 			page 1
  7601 0c9b 705F7374 		.ascii	"p_state\000"
  7601      61746500 
  7602              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.4 20130913 (release) [ARM/embedded-4_7-br
-ARM GAS  /tmp/ccmSYgV1.s 			page 146
+ARM GAS  /tmp/ccLOiU30.s 			page 146
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 i2c_lld.c
-     /tmp/ccmSYgV1.s:19     .text.i2c_lld_abort_operation:00000000 $t
-     /tmp/ccmSYgV1.s:24     .text.i2c_lld_abort_operation:00000000 i2c_lld_abort_operation
-     /tmp/ccmSYgV1.s:89     .text.i2c_lld_safety_timeout:00000000 $t
-     /tmp/ccmSYgV1.s:94     .text.i2c_lld_safety_timeout:00000000 i2c_lld_safety_timeout
-     /tmp/ccmSYgV1.s:164    .text.i2c_lld_serve_tx_end_irq:00000000 $t
-     /tmp/ccmSYgV1.s:169    .text.i2c_lld_serve_tx_end_irq:00000000 i2c_lld_serve_tx_end_irq
-     /tmp/ccmSYgV1.s:217    .text.i2c_lld_serve_rx_end_irq:00000000 $t
-     /tmp/ccmSYgV1.s:222    .text.i2c_lld_serve_rx_end_irq:00000000 i2c_lld_serve_rx_end_irq
-     /tmp/ccmSYgV1.s:328    .text.VectorC4:00000000 $t
-     /tmp/ccmSYgV1.s:334    .text.VectorC4:00000000 VectorC4
-     /tmp/ccmSYgV1.s:562    .text.VectorC4:00000128 $d
-     /tmp/ccmSYgV1.s:570    .text.VectorC8:00000000 $t
-     /tmp/ccmSYgV1.s:576    .text.VectorC8:00000000 VectorC8
-     /tmp/ccmSYgV1.s:775    .text.VectorC8:000000f8 $d
-     /tmp/ccmSYgV1.s:783    .text.i2c_lld_init:00000000 $t
-     /tmp/ccmSYgV1.s:789    .text.i2c_lld_init:00000000 i2c_lld_init
-     /tmp/ccmSYgV1.s:1927   .bss.I2CD2:00000000 .LANCHOR0
-     /tmp/ccmSYgV1.s:826    .text.i2c_lld_init:0000002c $d
-     /tmp/ccmSYgV1.s:831    .text.i2c_lld_start:00000000 $t
-     /tmp/ccmSYgV1.s:837    .text.i2c_lld_start:00000000 i2c_lld_start
-     /tmp/ccmSYgV1.s:1316   .text.i2c_lld_start:00000268 $d
-     /tmp/ccmSYgV1.s:1335   .text.i2c_lld_stop:00000000 $t
-     /tmp/ccmSYgV1.s:1341   .text.i2c_lld_stop:00000000 i2c_lld_stop
-     /tmp/ccmSYgV1.s:1398   .text.i2c_lld_stop:00000040 $d
-     /tmp/ccmSYgV1.s:1403   .text.i2c_lld_master_receive_timeout:00000000 $t
-     /tmp/ccmSYgV1.s:1409   .text.i2c_lld_master_receive_timeout:00000000 i2c_lld_master_receive_timeout
-     /tmp/ccmSYgV1.s:1634   .text.i2c_lld_master_receive_timeout:000000f8 $d
-     /tmp/ccmSYgV1.s:1641   .text.i2c_lld_master_transmit_timeout:00000000 $t
-     /tmp/ccmSYgV1.s:1647   .text.i2c_lld_master_transmit_timeout:00000000 i2c_lld_master_transmit_timeout
-     /tmp/ccmSYgV1.s:1890   .text.i2c_lld_master_transmit_timeout:0000010c $d
-     /tmp/ccmSYgV1.s:1930   .bss.I2CD2:00000000 I2CD2
-     /tmp/ccmSYgV1.s:1898   .rodata.str1.4:00000000 $d
-     /tmp/ccmSYgV1.s:1926   .bss.I2CD2:00000000 $d
+     /tmp/ccLOiU30.s:19     .text.i2c_lld_abort_operation:00000000 $t
+     /tmp/ccLOiU30.s:24     .text.i2c_lld_abort_operation:00000000 i2c_lld_abort_operation
+     /tmp/ccLOiU30.s:89     .text.i2c_lld_safety_timeout:00000000 $t
+     /tmp/ccLOiU30.s:94     .text.i2c_lld_safety_timeout:00000000 i2c_lld_safety_timeout
+     /tmp/ccLOiU30.s:164    .text.i2c_lld_serve_tx_end_irq:00000000 $t
+     /tmp/ccLOiU30.s:169    .text.i2c_lld_serve_tx_end_irq:00000000 i2c_lld_serve_tx_end_irq
+     /tmp/ccLOiU30.s:217    .text.i2c_lld_serve_rx_end_irq:00000000 $t
+     /tmp/ccLOiU30.s:222    .text.i2c_lld_serve_rx_end_irq:00000000 i2c_lld_serve_rx_end_irq
+     /tmp/ccLOiU30.s:328    .text.VectorC4:00000000 $t
+     /tmp/ccLOiU30.s:334    .text.VectorC4:00000000 VectorC4
+     /tmp/ccLOiU30.s:562    .text.VectorC4:00000128 $d
+     /tmp/ccLOiU30.s:570    .text.VectorC8:00000000 $t
+     /tmp/ccLOiU30.s:576    .text.VectorC8:00000000 VectorC8
+     /tmp/ccLOiU30.s:775    .text.VectorC8:000000f8 $d
+     /tmp/ccLOiU30.s:783    .text.i2c_lld_init:00000000 $t
+     /tmp/ccLOiU30.s:789    .text.i2c_lld_init:00000000 i2c_lld_init
+     /tmp/ccLOiU30.s:1927   .bss.I2CD2:00000000 .LANCHOR0
+     /tmp/ccLOiU30.s:826    .text.i2c_lld_init:0000002c $d
+     /tmp/ccLOiU30.s:831    .text.i2c_lld_start:00000000 $t
+     /tmp/ccLOiU30.s:837    .text.i2c_lld_start:00000000 i2c_lld_start
+     /tmp/ccLOiU30.s:1316   .text.i2c_lld_start:00000268 $d
+     /tmp/ccLOiU30.s:1335   .text.i2c_lld_stop:00000000 $t
+     /tmp/ccLOiU30.s:1341   .text.i2c_lld_stop:00000000 i2c_lld_stop
+     /tmp/ccLOiU30.s:1398   .text.i2c_lld_stop:00000040 $d
+     /tmp/ccLOiU30.s:1403   .text.i2c_lld_master_receive_timeout:00000000 $t
+     /tmp/ccLOiU30.s:1409   .text.i2c_lld_master_receive_timeout:00000000 i2c_lld_master_receive_timeout
+     /tmp/ccLOiU30.s:1634   .text.i2c_lld_master_receive_timeout:000000f8 $d
+     /tmp/ccLOiU30.s:1641   .text.i2c_lld_master_transmit_timeout:00000000 $t
+     /tmp/ccLOiU30.s:1647   .text.i2c_lld_master_transmit_timeout:00000000 i2c_lld_master_transmit_timeout
+     /tmp/ccLOiU30.s:1890   .text.i2c_lld_master_transmit_timeout:0000010c $d
+     /tmp/ccLOiU30.s:1930   .bss.I2CD2:00000000 I2CD2
+     /tmp/ccLOiU30.s:1898   .rodata.str1.4:00000000 $d
+     /tmp/ccLOiU30.s:1926   .bss.I2CD2:00000000 $d
                      .debug_frame:00000010 $d
-     /tmp/ccmSYgV1.s:569    .text.VectorC4:0000012c $t
-     /tmp/ccmSYgV1.s:782    .text.VectorC8:000000fc $t
-     /tmp/ccmSYgV1.s:1334   .text.i2c_lld_start:0000029c $t
-     /tmp/ccmSYgV1.s:1402   .text.i2c_lld_stop:00000044 $t
-     /tmp/ccmSYgV1.s:1640   .text.i2c_lld_master_receive_timeout:00000104 $t
-     /tmp/ccmSYgV1.s:1897   .text.i2c_lld_master_transmit_timeout:00000118 $t
+     /tmp/ccLOiU30.s:569    .text.VectorC4:0000012c $t
+     /tmp/ccLOiU30.s:782    .text.VectorC8:000000fc $t
+     /tmp/ccLOiU30.s:1334   .text.i2c_lld_start:0000029c $t
+     /tmp/ccLOiU30.s:1402   .text.i2c_lld_stop:00000044 $t
+     /tmp/ccLOiU30.s:1640   .text.i2c_lld_master_receive_timeout:00000104 $t
+     /tmp/ccLOiU30.s:1897   .text.i2c_lld_master_transmit_timeout:00000118 $t
 
 UNDEFINED SYMBOLS
 dbg_check_lock_from_isr
@@ -8757,7 +8757,7 @@ chDbgPanic
 dmaStreamAllocate
 nvicEnableVector
 dmaStreamRelease
-ARM GAS  /tmp/ccmSYgV1.s 			page 147
+ARM GAS  /tmp/ccLOiU30.s 			page 147
 
 
 nvicDisableVector

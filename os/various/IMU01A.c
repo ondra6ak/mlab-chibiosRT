@@ -72,40 +72,40 @@ void gyroRead (I2CDriver *i2c_drv, uint8_t addr, float *gyro_x, float *gyro_y, f
     uint8_t lsb;
     msg_t msg;
 
-    /*reading least significant byte X*/
-    tx_data[0] = IMU01A_GYRO_X_L;
+    /*reading most significant byte X*/
+    tx_data[0] = IMU01A_GYRO_X_H;
     i2cAcquireBus (i2c_drv);
     msg = i2cMasterTransmitTimeout (i2c_drv, addr, tx_data, 1, rx_data, 6, MS2ST(4));
     if (msg != RDY_OK) i2cGetErr(i2c_drv, &SD_DRV);
     lsb = rx_data[0];
-    /*reading most significant byte X*/
-    tx_data[0] = IMU01A_GYRO_X_H;
+    /*reading least significant byte X*/
+    tx_data[0] = IMU01A_GYRO_X_L;
     msg = i2cMasterTransmitTimeout (i2c_drv, addr, tx_data, 1, rx_data, 6, MS2ST(4));
     i2cReleaseBus (i2c_drv);
     if (msg != RDY_OK) i2cGetErr(i2c_drv, &SD_DRV);
     *gyro_x = (lsb << 8) | rx_data[0];
     
-    /*reading least significant byte Y*/
-    tx_data[0] = IMU01A_GYRO_Y_L;
+    /*reading most significant byte Y*/
+    tx_data[0] = IMU01A_GYRO_Y_H;
     i2cAcquireBus (i2c_drv);
     msg = i2cMasterTransmitTimeout (i2c_drv, addr, tx_data, 1, rx_data, 6, MS2ST(4));
     if (msg != RDY_OK) i2cGetErr(i2c_drv, &SD_DRV);
     lsb = rx_data[0];
-    /*reading most significant byte Y*/
-    tx_data[0] = IMU01A_GYRO_Y_H;
+    /*reading least significant byte Y*/
+    tx_data[0] = IMU01A_GYRO_Y_L;
     msg = i2cMasterTransmitTimeout (i2c_drv, addr, tx_data, 1, rx_data, 6, MS2ST(4));
     i2cReleaseBus (i2c_drv);
     if (msg != RDY_OK) i2cGetErr(i2c_drv, &SD_DRV);
     *gyro_y = (lsb << 8) | rx_data[0];
 
-    /*reading least significant byte Z*/
-    tx_data[0] = IMU01A_GYRO_Z_L;
+    /*reading most significant byte Z*/
+    tx_data[0] = IMU01A_GYRO_Z_H;
     i2cAcquireBus (i2c_drv);
     msg = i2cMasterTransmitTimeout (i2c_drv, addr, tx_data, 1, rx_data, 6, MS2ST(4));
     if (msg != RDY_OK) i2cGetErr(i2c_drv, &SD_DRV);
     lsb = rx_data[0];
-    /*reading most significant byte Z*/
-    tx_data[0] = IMU01A_GYRO_Z_H;
+    /*reading least significant byte Z*/
+    tx_data[0] = IMU01A_GYRO_Z_L;
     msg = i2cMasterTransmitTimeout (i2c_drv, addr, tx_data, 1, rx_data, 6, MS2ST(4));
     i2cReleaseBus (i2c_drv);
     if (msg != RDY_OK) i2cGetErr(i2c_drv, &SD_DRV);

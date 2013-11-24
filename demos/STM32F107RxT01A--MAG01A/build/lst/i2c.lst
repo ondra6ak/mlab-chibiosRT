@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc75HN9k.s 			page 1
+ARM GAS  /tmp/cczXWF5i.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
   53              		@ link register save eliminated.
   54              	.LVL1:
   55              		.loc 1 77 0
-ARM GAS  /tmp/cc75HN9k.s 			page 2
+ARM GAS  /tmp/cczXWF5i.s 			page 2
 
 
   56 0000 0123     		movs	r3, #1
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  110 0012 052B     		cmp	r3, #5
  111 0014 02D0     		beq	.L6
  112              		.loc 1 104 0 discriminator 2
-ARM GAS  /tmp/cc75HN9k.s 			page 3
+ARM GAS  /tmp/cczXWF5i.s 			page 3
 
 
  113 0016 0C48     		ldr	r0, .L14
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  167              		.size	i2cStart, .-i2cStart
  168              		.section	.text.i2cStop,"ax",%progbits
  169              		.align	2
-ARM GAS  /tmp/cc75HN9k.s 			page 4
+ARM GAS  /tmp/cczXWF5i.s 			page 4
 
 
  170              		.p2align 4,,15
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  224              		.loc 1 134 0
  225 002c FFF7FEFF 		bl	dbg_check_unlock
  226              	.LVL24:
-ARM GAS  /tmp/cc75HN9k.s 			page 5
+ARM GAS  /tmp/cczXWF5i.s 			page 5
 
 
  227              	.LBB5:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  280              	.L27:
  281              		.loc 1 147 0 discriminator 1
  282 000a 0248     		ldr	r0, .L28
-ARM GAS  /tmp/cc75HN9k.s 			page 6
+ARM GAS  /tmp/cczXWF5i.s 			page 6
 
 
  283              	.LVL33:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  336              	.LVL36:
  337              	.L31:
  338              		.loc 1 187 0 discriminator 1
-ARM GAS  /tmp/cc75HN9k.s 			page 7
+ARM GAS  /tmp/cczXWF5i.s 			page 7
 
 
  339 0018 1B48     		ldr	r0, .L60
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  393              	.LVL45:
  394              	.L36:
  395              		.loc 1 205 0
-ARM GAS  /tmp/cc75HN9k.s 			page 8
+ARM GAS  /tmp/cczXWF5i.s 			page 8
 
 
  396 0058 FFF7FEFF 		bl	dbg_check_unlock
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  450              		.thumb
  451              		.thumb_func
  452              		.type	i2cMasterReceiveTimeout, %function
-ARM GAS  /tmp/cc75HN9k.s 			page 9
+ARM GAS  /tmp/cczXWF5i.s 			page 9
 
 
  453              	i2cMasterReceiveTimeout:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  507              	.LVL58:
  508              		.thumb
  509              	.LBE8:
-ARM GAS  /tmp/cc75HN9k.s 			page 10
+ARM GAS  /tmp/cczXWF5i.s 			page 10
 
 
  510 002e FFF7FEFF 		bl	dbg_check_lock
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  564 006c 002F     		cmp	r7, #0
  565 006e D5D1     		bne	.L64
  566 0070 D1E7     		b	.L63
-ARM GAS  /tmp/cc75HN9k.s 			page 11
+ARM GAS  /tmp/cczXWF5i.s 			page 11
 
 
  567              	.LVL66:
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  621              	.L90:
  622 001c C4000000 		.word	.LC9
  623              		.cfi_endproc
-ARM GAS  /tmp/cc75HN9k.s 			page 12
+ARM GAS  /tmp/cczXWF5i.s 			page 12
 
 
  624              	.LFE70:
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  674 0010 69326353 		.ascii	"i2cStart(), #1\000"
  674      74617274 
  674      28292C20 
-ARM GAS  /tmp/cc75HN9k.s 			page 13
+ARM GAS  /tmp/cczXWF5i.s 			page 13
 
 
  674      233100
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  699 00d8 22693263 		.ascii	"\"i2cReleaseBus\"()\000"
  699      52656C65 
  699      61736542 
-ARM GAS  /tmp/cc75HN9k.s 			page 14
+ARM GAS  /tmp/cczXWF5i.s 			page 14
 
 
  699      75732228 
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  752 0054 04       		.uleb128 0x4
  753 0055 01       		.byte	0x1
  754 0056 08       		.byte	0x8
-ARM GAS  /tmp/cc75HN9k.s 			page 15
+ARM GAS  /tmp/cczXWF5i.s 			page 15
 
 
  755 0057 AC040000 		.4byte	.LASF4
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  809 00c3 03       		.uleb128 0x3
  810 00c4 D1010000 		.4byte	.LASF17
  811 00c8 04       		.byte	0x4
-ARM GAS  /tmp/cc75HN9k.s 			page 16
+ARM GAS  /tmp/cczXWF5i.s 			page 16
 
 
  812 00c9 26       		.byte	0x26
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  866 013b 5A       		.byte	0x5a
  867 013c 73020000 		.4byte	0x273
  868 0140 02       		.byte	0x2
-ARM GAS  /tmp/cc75HN9k.s 			page 17
+ARM GAS  /tmp/cczXWF5i.s 			page 17
 
 
  869 0141 23       		.byte	0x23
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  923 019e C3000000 		.4byte	0xc3
  924 01a2 02       		.byte	0x2
  925 01a3 23       		.byte	0x23
-ARM GAS  /tmp/cc75HN9k.s 			page 18
+ARM GAS  /tmp/cczXWF5i.s 			page 18
 
 
  926 01a4 20       		.uleb128 0x20
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  980 0204 02       		.byte	0x2
  981 0205 23       		.byte	0x23
  982 0206 30       		.uleb128 0x30
-ARM GAS  /tmp/cc75HN9k.s 			page 19
+ARM GAS  /tmp/cczXWF5i.s 			page 19
 
 
  983 0207 06       		.uleb128 0x6
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  1037 0264 06       		.uleb128 0x6
  1038 0265 52040000 		.4byte	.LASF26
  1039 0269 05       		.byte	0x5
-ARM GAS  /tmp/cc75HN9k.s 			page 20
+ARM GAS  /tmp/cczXWF5i.s 			page 20
 
 
  1040 026a 5D       		.byte	0x5d
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  1094 02d0 1801     		.2byte	0x118
  1095 02d2 A6020000 		.4byte	0x2a6
  1096 02d6 02       		.byte	0x2
-ARM GAS  /tmp/cc75HN9k.s 			page 21
+ARM GAS  /tmp/cczXWF5i.s 			page 21
 
 
  1097 02d7 23       		.byte	0x23
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  1151 0336 A6020000 		.4byte	0x2a6
  1152 033a 02       		.byte	0x2
  1153 033b 23       		.byte	0x23
-ARM GAS  /tmp/cc75HN9k.s 			page 22
+ARM GAS  /tmp/cczXWF5i.s 			page 22
 
 
  1154 033c 1C       		.uleb128 0x1c
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  1208 03a1 73020000 		.4byte	0x273
  1209 03a5 02       		.byte	0x2
  1210 03a6 23       		.byte	0x23
-ARM GAS  /tmp/cc75HN9k.s 			page 23
+ARM GAS  /tmp/cczXWF5i.s 			page 23
 
 
  1211 03a7 08       		.uleb128 0x8
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  1265 0410 04       		.byte	0x4
  1266 0411 B3020000 		.4byte	0x2b3
  1267 0415 09       		.uleb128 0x9
-ARM GAS  /tmp/cc75HN9k.s 			page 24
+ARM GAS  /tmp/cczXWF5i.s 			page 24
 
 
  1268 0416 04       		.byte	0x4
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  1322 0481 09       		.byte	0x9
  1323 0482 3303     		.2byte	0x333
  1324 0484 36040000 		.4byte	0x436
-ARM GAS  /tmp/cc75HN9k.s 			page 25
+ARM GAS  /tmp/cczXWF5i.s 			page 25
 
 
  1325 0488 11       		.uleb128 0x11
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  1379 04ec FD050000 		.4byte	.LASF69
  1380 04f0 09       		.byte	0x9
  1381 04f1 1B04     		.2byte	0x41b
-ARM GAS  /tmp/cc75HN9k.s 			page 26
+ARM GAS  /tmp/cczXWF5i.s 			page 26
 
 
  1382 04f3 2C040000 		.4byte	0x42c
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  1436 0558 09       		.byte	0x9
  1437 0559 2204     		.2byte	0x422
  1438 055b 62000000 		.4byte	0x62
-ARM GAS  /tmp/cc75HN9k.s 			page 27
+ARM GAS  /tmp/cczXWF5i.s 			page 27
 
 
  1439 055f 02       		.byte	0x2
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  1493 05c1 06       		.uleb128 0x6
  1494 05c2 47050000 		.4byte	.LASF79
  1495 05c6 0A       		.byte	0xa
-ARM GAS  /tmp/cc75HN9k.s 			page 28
+ARM GAS  /tmp/cczXWF5i.s 			page 28
 
 
  1496 05c7 C3       		.byte	0xc3
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  1550 062a 02       		.sleb128 2
  1551 062b 15       		.uleb128 0x15
  1552 062c 7F040000 		.4byte	.LASF87
-ARM GAS  /tmp/cc75HN9k.s 			page 29
+ARM GAS  /tmp/cczXWF5i.s 			page 29
 
 
  1553 0630 03       		.sleb128 3
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  1607 069e 15       		.uleb128 0x15
  1608 069f 9F030000 		.4byte	.LASF99
  1609 06a3 03       		.sleb128 3
-ARM GAS  /tmp/cc75HN9k.s 			page 30
+ARM GAS  /tmp/cczXWF5i.s 			page 30
 
 
  1610 06a4 00       		.byte	0
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  1664 0712 0C       		.byte	0xc
  1665 0713 6601     		.2byte	0x166
  1666 0715 3E060000 		.4byte	0x63e
-ARM GAS  /tmp/cc75HN9k.s 			page 31
+ARM GAS  /tmp/cczXWF5i.s 			page 31
 
 
  1667 0719 02       		.byte	0x2
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  1721 077c 8C01     		.2byte	0x18c
  1722 077e 86000000 		.4byte	0x86
  1723 0782 02       		.byte	0x2
-ARM GAS  /tmp/cc75HN9k.s 			page 32
+ARM GAS  /tmp/cczXWF5i.s 			page 32
 
 
  1724 0783 23       		.byte	0x23
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  1778 07e9 04000000 		.4byte	.LVL0
  1779 07ed 01       		.byte	0x1
  1780 07ee 020D0000 		.4byte	0xd02
-ARM GAS  /tmp/cc75HN9k.s 			page 33
+ARM GAS  /tmp/cczXWF5i.s 			page 33
 
 
  1781 07f2 00       		.byte	0
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  1835 085b 4E000000 		.4byte	.LLST2
  1836 085f 19       		.uleb128 0x19
  1837 0860 84050000 		.4byte	.LASF107
-ARM GAS  /tmp/cc75HN9k.s 			page 34
+ARM GAS  /tmp/cczXWF5i.s 			page 34
 
 
  1838 0864 01       		.byte	0x1
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  1892 08e5 21       		.uleb128 0x21
  1893 08e6 44000000 		.4byte	.LVL16
  1894 08ea 210D0000 		.4byte	0xd21
-ARM GAS  /tmp/cc75HN9k.s 			page 35
+ARM GAS  /tmp/cczXWF5i.s 			page 35
 
 
  1895 08ee 1B       		.uleb128 0x1b
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  1949 096c 05       		.byte	0x5
  1950 096d 03       		.byte	0x3
  1951 096e 2C000000 		.4byte	.LC3
-ARM GAS  /tmp/cc75HN9k.s 			page 36
+ARM GAS  /tmp/cczXWF5i.s 			page 36
 
 
  1952 0972 00       		.byte	0
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  2006 09e7 03       		.byte	0x3
  2007 09e8 3C000000 		.4byte	.LC4
  2008 09ec 00       		.byte	0
-ARM GAS  /tmp/cc75HN9k.s 			page 37
+ARM GAS  /tmp/cczXWF5i.s 			page 37
 
 
  2009 09ed 00       		.byte	0
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  2063 0a65 CB020000 		.4byte	.LASF127
  2064 0a69 01       		.byte	0x1
  2065 0a6a B8       		.byte	0xb8
-ARM GAS  /tmp/cc75HN9k.s 			page 38
+ARM GAS  /tmp/cczXWF5i.s 			page 38
 
 
  2066 0a6b 05010000 		.4byte	0x105
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  2120 0ae9 20       		.uleb128 0x20
  2121 0aea 34000000 		.4byte	.LVL42
  2122 0aee 350D0000 		.4byte	0xd35
-ARM GAS  /tmp/cc75HN9k.s 			page 39
+ARM GAS  /tmp/cczXWF5i.s 			page 39
 
 
  2123 0af2 1F       		.uleb128 0x1f
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  2177 0b37 00       		.byte	0
  2178 0b38 22       		.uleb128 0x22
  2179 0b39 01       		.byte	0x1
-ARM GAS  /tmp/cc75HN9k.s 			page 40
+ARM GAS  /tmp/cczXWF5i.s 			page 40
 
 
  2180 0b3a 02060000 		.4byte	.LASF128
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  2234 0bc1 01       		.byte	0x1
  2235 0bc2 F5       		.byte	0xf5
  2236 0bc3 86000000 		.4byte	0x86
-ARM GAS  /tmp/cc75HN9k.s 			page 41
+ARM GAS  /tmp/cczXWF5i.s 			page 41
 
 
  2237 0bc7 31040000 		.4byte	.LLST26
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  2291 0c39 1B       		.uleb128 0x1b
  2292 0c3a 01       		.byte	0x1
  2293 0c3b 51       		.byte	0x51
-ARM GAS  /tmp/cc75HN9k.s 			page 42
+ARM GAS  /tmp/cczXWF5i.s 			page 42
 
 
  2294 0c3c 02       		.byte	0x2
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  2348 0ca1 01       		.byte	0x1
  2349 0ca2 50       		.byte	0x50
  2350 0ca3 05       		.byte	0x5
-ARM GAS  /tmp/cc75HN9k.s 			page 43
+ARM GAS  /tmp/cczXWF5i.s 			page 43
 
 
  2351 0ca4 03       		.byte	0x3
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  2405 0d14 31       		.byte	0x31
  2406 0d15 01       		.byte	0x1
  2407 0d16 01       		.byte	0x1
-ARM GAS  /tmp/cc75HN9k.s 			page 44
+ARM GAS  /tmp/cczXWF5i.s 			page 44
 
 
  2408 0d17 210D0000 		.4byte	0xd21
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  2462 0d79 0C       		.byte	0xc
  2463 0d7a C001     		.2byte	0x1c0
  2464 0d7c 01       		.byte	0x1
-ARM GAS  /tmp/cc75HN9k.s 			page 45
+ARM GAS  /tmp/cczXWF5i.s 			page 45
 
 
  2465 0d7d EF000000 		.4byte	0xef
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  2519 0df3 01       		.byte	0x1
  2520 0df4 15040000 		.4byte	0x415
  2521 0df8 01       		.byte	0x1
-ARM GAS  /tmp/cc75HN9k.s 			page 46
+ARM GAS  /tmp/cczXWF5i.s 			page 46
 
 
  2522 0df9 00       		.byte	0
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  2576 0033 0B       		.uleb128 0xb
  2577 0034 03       		.uleb128 0x3
  2578 0035 0E       		.uleb128 0xe
-ARM GAS  /tmp/cc75HN9k.s 			page 47
+ARM GAS  /tmp/cczXWF5i.s 			page 47
 
 
  2579 0036 00       		.byte	0
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  2633 006c 3B       		.uleb128 0x3b
  2634 006d 0B       		.uleb128 0xb
  2635 006e 01       		.uleb128 0x1
-ARM GAS  /tmp/cc75HN9k.s 			page 48
+ARM GAS  /tmp/cczXWF5i.s 			page 48
 
 
  2636 006f 13       		.uleb128 0x13
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  2690 00a5 00       		.byte	0
  2691 00a6 00       		.byte	0
  2692 00a7 0E       		.uleb128 0xe
-ARM GAS  /tmp/cc75HN9k.s 			page 49
+ARM GAS  /tmp/cczXWF5i.s 			page 49
 
 
  2693 00a8 17       		.uleb128 0x17
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  2747 00de 49       		.uleb128 0x49
  2748 00df 13       		.uleb128 0x13
  2749 00e0 38       		.uleb128 0x38
-ARM GAS  /tmp/cc75HN9k.s 			page 50
+ARM GAS  /tmp/cczXWF5i.s 			page 50
 
 
  2750 00e1 0A       		.uleb128 0xa
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  2804 0117 3F       		.uleb128 0x3f
  2805 0118 0C       		.uleb128 0xc
  2806 0119 03       		.uleb128 0x3
-ARM GAS  /tmp/cc75HN9k.s 			page 51
+ARM GAS  /tmp/cczXWF5i.s 			page 51
 
 
  2807 011a 0E       		.uleb128 0xe
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  2861 0157 00       		.byte	0
  2862 0158 00       		.byte	0
  2863 0159 1B       		.uleb128 0x1b
-ARM GAS  /tmp/cc75HN9k.s 			page 52
+ARM GAS  /tmp/cczXWF5i.s 			page 52
 
 
  2864 015a 8A8201   		.uleb128 0x410a
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  2918 0194 13       		.uleb128 0x13
  2919 0195 02       		.uleb128 0x2
  2920 0196 06       		.uleb128 0x6
-ARM GAS  /tmp/cc75HN9k.s 			page 53
+ARM GAS  /tmp/cczXWF5i.s 			page 53
 
 
  2921 0197 00       		.byte	0
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  2975 01d4 01       		.uleb128 0x1
  2976 01d5 13       		.uleb128 0x13
  2977 01d6 00       		.byte	0
-ARM GAS  /tmp/cc75HN9k.s 			page 54
+ARM GAS  /tmp/cczXWF5i.s 			page 54
 
 
  2978 01d7 00       		.byte	0
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3032 020e 00       		.byte	0
  3033 020f 00       		.byte	0
  3034 0210 26       		.uleb128 0x26
-ARM GAS  /tmp/cc75HN9k.s 			page 55
+ARM GAS  /tmp/cczXWF5i.s 			page 55
 
 
  3035 0211 05       		.uleb128 0x5
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3089 024a 05       		.uleb128 0x5
  3090 024b 27       		.uleb128 0x27
  3091 024c 0C       		.uleb128 0xc
-ARM GAS  /tmp/cc75HN9k.s 			page 56
+ARM GAS  /tmp/cczXWF5i.s 			page 56
 
 
  3092 024d 3C       		.uleb128 0x3c
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3146 0283 3A       		.uleb128 0x3a
  3147 0284 0B       		.uleb128 0xb
  3148 0285 3B       		.uleb128 0x3b
-ARM GAS  /tmp/cc75HN9k.s 			page 57
+ARM GAS  /tmp/cczXWF5i.s 			page 57
 
 
  3149 0286 05       		.uleb128 0x5
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3203 0004 0A000000 		.4byte	.LVL2
  3204 0008 0100     		.2byte	0x1
  3205 000a 50       		.byte	0x50
-ARM GAS  /tmp/cc75HN9k.s 			page 58
+ARM GAS  /tmp/cczXWF5i.s 			page 58
 
 
  3206 000b 0A000000 		.4byte	.LVL2
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3260 0095 0100     		.2byte	0x1
  3261 0097 55       		.byte	0x55
  3262 0098 3E000000 		.4byte	.LVL14
-ARM GAS  /tmp/cc75HN9k.s 			page 59
+ARM GAS  /tmp/cczXWF5i.s 			page 59
 
 
  3263 009c 43000000 		.4byte	.LVL16-1
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3317 012c 00000000 		.4byte	0
  3318              	.LLST8:
  3319 0130 1E000000 		.4byte	.LVL21
-ARM GAS  /tmp/cc75HN9k.s 			page 60
+ARM GAS  /tmp/cczXWF5i.s 			page 60
 
 
  3320 0134 21000000 		.4byte	.LVL22-1
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3374 01c1 1C       		.sleb128 28
  3375 01c2 06000000 		.4byte	.LCFI4
  3376 01c6 90000000 		.4byte	.LFE68
-ARM GAS  /tmp/cc75HN9k.s 			page 61
+ARM GAS  /tmp/cczXWF5i.s 			page 61
 
 
  3377 01ca 0200     		.2byte	0x2
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3431 024f 1D000000 		.4byte	.LVL38-1
  3432 0253 6A000000 		.4byte	.LVL49
  3433 0257 0100     		.2byte	0x1
-ARM GAS  /tmp/cc75HN9k.s 			page 62
+ARM GAS  /tmp/cczXWF5i.s 			page 62
 
 
  3434 0259 5A       		.byte	0x5a
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3488 02eb 00000000 		.4byte	0
  3489 02ef 00000000 		.4byte	0
  3490              	.LLST19:
-ARM GAS  /tmp/cc75HN9k.s 			page 63
+ARM GAS  /tmp/cczXWF5i.s 			page 63
 
 
  3491 02f3 62000000 		.4byte	.LVL48
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3545 037e 9F       		.byte	0x9f
  3546 037f 64000000 		.4byte	.LVL65
  3547 0383 72000000 		.4byte	.LVL66
-ARM GAS  /tmp/cc75HN9k.s 			page 64
+ARM GAS  /tmp/cczXWF5i.s 			page 64
 
 
  3548 0387 0100     		.2byte	0x1
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3602 0413 55000000 		.4byte	.LVL62-1
  3603 0417 64000000 		.4byte	.LVL65
  3604 041b 0100     		.2byte	0x1
-ARM GAS  /tmp/cc75HN9k.s 			page 65
+ARM GAS  /tmp/cczXWF5i.s 			page 65
 
 
  3605 041d 55       		.byte	0x55
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3659 04ab 00000000 		.4byte	.LFB71
  3660 04af 02000000 		.4byte	.LCFI8
  3661 04b3 0200     		.2byte	0x2
-ARM GAS  /tmp/cc75HN9k.s 			page 66
+ARM GAS  /tmp/cczXWF5i.s 			page 66
 
 
  3662 04b5 7D       		.byte	0x7d
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3716 0040 00000000 		.4byte	.LFB69
  3717 0044 80000000 		.4byte	.LFE69-.LFB69
  3718 0048 00000000 		.4byte	.LFB70
-ARM GAS  /tmp/cc75HN9k.s 			page 67
+ARM GAS  /tmp/cczXWF5i.s 			page 67
 
 
  3719 004c 20000000 		.4byte	.LFE70-.LFB70
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3759              	.LASF56:
  3760 0036 7264796D 		.ascii	"rdymsg\000"
  3760      736700
-ARM GAS  /tmp/cc75HN9k.s 			page 68
+ARM GAS  /tmp/cczXWF5i.s 			page 68
 
 
  3761              	.LASF13:
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3787              	.LASF119:
  3788 00d5 69326370 		.ascii	"i2cp\000"
  3788      00
-ARM GAS  /tmp/cc75HN9k.s 			page 69
+ARM GAS  /tmp/cczXWF5i.s 			page 69
 
 
  3789              	.LASF27:
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3812              	.LASF91:
  3813 01b8 69326361 		.ascii	"i2caddr_t\000"
  3813      6464725F 
-ARM GAS  /tmp/cc75HN9k.s 			page 70
+ARM GAS  /tmp/cczXWF5i.s 			page 70
 
 
  3813      7400
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3840      4D425553 
  3840      5F484F53 
  3840      5400
-ARM GAS  /tmp/cc75HN9k.s 			page 71
+ARM GAS  /tmp/cczXWF5i.s 			page 71
 
 
  3841              	.LASF47:
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3868      7369676E 
  3868      65642069 
  3868      6E7400
-ARM GAS  /tmp/cc75HN9k.s 			page 72
+ARM GAS  /tmp/cczXWF5i.s 			page 72
 
 
  3869              	.LASF105:
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3897              	.LASF99:
  3898 039f 46415354 		.ascii	"FAST_DUTY_CYCLE_16_9\000"
  3898      5F445554 
-ARM GAS  /tmp/cc75HN9k.s 			page 73
+ARM GAS  /tmp/cczXWF5i.s 			page 73
 
 
  3898      595F4359 
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3924      3200
  3925              	.LASF70:
  3926 043e 52455345 		.ascii	"RESERVED3\000"
-ARM GAS  /tmp/cc75HN9k.s 			page 74
+ARM GAS  /tmp/cczXWF5i.s 			page 74
 
 
  3926      52564544 
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3954 04cd 705F6D74 		.ascii	"p_mtxlist\000"
  3954      786C6973 
  3954      7400
-ARM GAS  /tmp/cc75HN9k.s 			page 75
+ARM GAS  /tmp/cczXWF5i.s 			page 75
 
 
  3955              	.LASF84:
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  3984 055f 4932435F 		.ascii	"I2C_ACTIVE_RX\000"
  3984      41435449 
  3984      56455F52 
-ARM GAS  /tmp/cc75HN9k.s 			page 76
+ARM GAS  /tmp/cczXWF5i.s 			page 76
 
 
  3984      5800
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  4013              	.LASF3:
  4014 05f0 75696E74 		.ascii	"uint8_t\000"
  4014      385F7400 
-ARM GAS  /tmp/cc75HN9k.s 			page 77
+ARM GAS  /tmp/cczXWF5i.s 			page 77
 
 
  4015              	.LASF67:
@@ -4612,41 +4612,41 @@ ARM GAS  /tmp/cc75HN9k.s 			page 1
  4042 0674 74786279 		.ascii	"txbytes\000"
  4042      74657300 
  4043              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.4 20130913 (release) [ARM/embedded-4_7-br
-ARM GAS  /tmp/cc75HN9k.s 			page 78
+ARM GAS  /tmp/cczXWF5i.s 			page 78
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 i2c.c
-     /tmp/cc75HN9k.s:19     .text.i2cInit:00000000 $t
-     /tmp/cc75HN9k.s:25     .text.i2cInit:00000000 i2cInit
-     /tmp/cc75HN9k.s:41     .text.i2cObjectInit:00000000 $t
-     /tmp/cc75HN9k.s:47     .text.i2cObjectInit:00000000 i2cObjectInit
-     /tmp/cc75HN9k.s:74     .text.i2cStart:00000000 $t
-     /tmp/cc75HN9k.s:80     .text.i2cStart:00000000 i2cStart
-     /tmp/cc75HN9k.s:163    .text.i2cStart:00000048 $d
-     /tmp/cc75HN9k.s:169    .text.i2cStop:00000000 $t
-     /tmp/cc75HN9k.s:175    .text.i2cStop:00000000 i2cStop
-     /tmp/cc75HN9k.s:248    .text.i2cStop:00000040 $d
-     /tmp/cc75HN9k.s:254    .text.i2cGetErrors:00000000 $t
-     /tmp/cc75HN9k.s:260    .text.i2cGetErrors:00000000 i2cGetErrors
-     /tmp/cc75HN9k.s:292    .text.i2cGetErrors:00000014 $d
-     /tmp/cc75HN9k.s:297    .text.i2cMasterTransmitTimeout:00000000 $t
-     /tmp/cc75HN9k.s:303    .text.i2cMasterTransmitTimeout:00000000 i2cMasterTransmitTimeout
-     /tmp/cc75HN9k.s:441    .text.i2cMasterTransmitTimeout:00000088 $d
-     /tmp/cc75HN9k.s:447    .text.i2cMasterReceiveTimeout:00000000 $t
-     /tmp/cc75HN9k.s:453    .text.i2cMasterReceiveTimeout:00000000 i2cMasterReceiveTimeout
-     /tmp/cc75HN9k.s:576    .text.i2cMasterReceiveTimeout:00000078 $d
-     /tmp/cc75HN9k.s:582    .text.i2cAcquireBus:00000000 $t
-     /tmp/cc75HN9k.s:588    .text.i2cAcquireBus:00000000 i2cAcquireBus
-     /tmp/cc75HN9k.s:622    .text.i2cAcquireBus:0000001c $d
-     /tmp/cc75HN9k.s:627    .text.i2cReleaseBus:00000000 $t
-     /tmp/cc75HN9k.s:633    .text.i2cReleaseBus:00000000 i2cReleaseBus
-     /tmp/cc75HN9k.s:664    .text.i2cReleaseBus:00000014 $d
-     /tmp/cc75HN9k.s:669    .rodata.str1.4:00000000 $d
+     /tmp/cczXWF5i.s:19     .text.i2cInit:00000000 $t
+     /tmp/cczXWF5i.s:25     .text.i2cInit:00000000 i2cInit
+     /tmp/cczXWF5i.s:41     .text.i2cObjectInit:00000000 $t
+     /tmp/cczXWF5i.s:47     .text.i2cObjectInit:00000000 i2cObjectInit
+     /tmp/cczXWF5i.s:74     .text.i2cStart:00000000 $t
+     /tmp/cczXWF5i.s:80     .text.i2cStart:00000000 i2cStart
+     /tmp/cczXWF5i.s:163    .text.i2cStart:00000048 $d
+     /tmp/cczXWF5i.s:169    .text.i2cStop:00000000 $t
+     /tmp/cczXWF5i.s:175    .text.i2cStop:00000000 i2cStop
+     /tmp/cczXWF5i.s:248    .text.i2cStop:00000040 $d
+     /tmp/cczXWF5i.s:254    .text.i2cGetErrors:00000000 $t
+     /tmp/cczXWF5i.s:260    .text.i2cGetErrors:00000000 i2cGetErrors
+     /tmp/cczXWF5i.s:292    .text.i2cGetErrors:00000014 $d
+     /tmp/cczXWF5i.s:297    .text.i2cMasterTransmitTimeout:00000000 $t
+     /tmp/cczXWF5i.s:303    .text.i2cMasterTransmitTimeout:00000000 i2cMasterTransmitTimeout
+     /tmp/cczXWF5i.s:441    .text.i2cMasterTransmitTimeout:00000088 $d
+     /tmp/cczXWF5i.s:447    .text.i2cMasterReceiveTimeout:00000000 $t
+     /tmp/cczXWF5i.s:453    .text.i2cMasterReceiveTimeout:00000000 i2cMasterReceiveTimeout
+     /tmp/cczXWF5i.s:576    .text.i2cMasterReceiveTimeout:00000078 $d
+     /tmp/cczXWF5i.s:582    .text.i2cAcquireBus:00000000 $t
+     /tmp/cczXWF5i.s:588    .text.i2cAcquireBus:00000000 i2cAcquireBus
+     /tmp/cczXWF5i.s:622    .text.i2cAcquireBus:0000001c $d
+     /tmp/cczXWF5i.s:627    .text.i2cReleaseBus:00000000 $t
+     /tmp/cczXWF5i.s:633    .text.i2cReleaseBus:00000000 i2cReleaseBus
+     /tmp/cczXWF5i.s:664    .text.i2cReleaseBus:00000014 $d
+     /tmp/cczXWF5i.s:669    .rodata.str1.4:00000000 $d
                      .debug_frame:00000010 $d
-     /tmp/cc75HN9k.s:253    .text.i2cStop:00000048 $t
-     /tmp/cc75HN9k.s:296    .text.i2cGetErrors:00000018 $t
-     /tmp/cc75HN9k.s:668    .text.i2cReleaseBus:00000018 $t
+     /tmp/cczXWF5i.s:253    .text.i2cStop:00000048 $t
+     /tmp/cczXWF5i.s:296    .text.i2cGetErrors:00000018 $t
+     /tmp/cczXWF5i.s:668    .text.i2cReleaseBus:00000018 $t
 
 UNDEFINED SYMBOLS
 i2c_lld_init

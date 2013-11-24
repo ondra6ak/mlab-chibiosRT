@@ -1753,7 +1753,7 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_ranges  0x00000fb8       0x10 build/obj/i2cGetErr.o
  .debug_ranges  0x00000fc8       0x20 build/obj/main.o
 
-.debug_line     0x00000000     0x4a7c
+.debug_line     0x00000000     0x4a7e
  .debug_line    0x00000000      0x13c build/obj/crt0.o
  .debug_line    0x0000013c       0xb4 build/obj/vectors.o
  .debug_line    0x000001f0       0x53 build/obj/chcore.o
@@ -1781,9 +1781,9 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_line    0x00003978      0x327 build/obj/serial_lld.o
  .debug_line    0x00003c9f      0x159 build/obj/board.o
  .debug_line    0x00003df8      0x301 build/obj/chprintf.o
- .debug_line    0x000040f9      0x383 build/obj/IMU01A.o
- .debug_line    0x0000447c      0x2b4 build/obj/i2cGetErr.o
- .debug_line    0x00004730      0x34c build/obj/main.o
+ .debug_line    0x000040f9      0x385 build/obj/IMU01A.o
+ .debug_line    0x0000447e      0x2b4 build/obj/i2cGetErr.o
+ .debug_line    0x00004732      0x34c build/obj/main.o
 
 .debug_str      0x00000000     0x2258
  .debug_str     0x00000000      0x220 build/obj/crt0.o

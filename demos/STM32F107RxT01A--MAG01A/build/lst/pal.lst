@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc78kMuu.s 			page 1
+ARM GAS  /tmp/ccpFqnjk.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
   55 0016 6068     		ldr	r0, [r4, #4]
   56 0018 8A68     		ldr	r2, [r1, #8]
   57 001a 22FA03F3 		lsr	r3, r2, r3
-ARM GAS  /tmp/cc78kMuu.s 			page 2
+ARM GAS  /tmp/ccpFqnjk.s 			page 2
 
 
   58              		.loc 1 76 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  111 0020 1540     		ands	r5, r5, r2
  112              	.LVL6:
  113 0022 00FA01F0 		lsl	r0, r0, r1
-ARM GAS  /tmp/cc78kMuu.s 			page 3
+ARM GAS  /tmp/ccpFqnjk.s 			page 3
 
 
  114 0026 05FA03F3 		lsl	r3, r5, r3
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  167 001a 01FA03F1 		lsl	r1, r1, r3
  168 001e 2A46     		mov	r2, r5
  169              		.loc 1 126 0
-ARM GAS  /tmp/cc78kMuu.s 			page 4
+ARM GAS  /tmp/ccpFqnjk.s 			page 4
 
 
  170 0020 BDE83840 		pop	{r3, r4, r5, lr}
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  214 002a 04       		.byte	0x4
  215 002b 05       		.byte	0x5
  216 002c 696E7400 		.ascii	"int\000"
-ARM GAS  /tmp/cc78kMuu.s 			page 5
+ARM GAS  /tmp/ccpFqnjk.s 			page 5
 
 
  217 0030 03       		.uleb128 0x3
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  271 0093 EB010000 		.4byte	.LASF12
  272 0097 05       		.uleb128 0x5
  273 0098 65000000 		.4byte	0x65
-ARM GAS  /tmp/cc78kMuu.s 			page 6
+ARM GAS  /tmp/ccpFqnjk.s 			page 6
 
 
  274 009c 03       		.uleb128 0x3
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  328 0104 03       		.byte	0x3
  329 0105 FE03     		.2byte	0x3fe
  330 0107 97000000 		.4byte	0x97
-ARM GAS  /tmp/cc78kMuu.s 			page 7
+ARM GAS  /tmp/ccpFqnjk.s 			page 7
 
 
  331 010b 02       		.byte	0x2
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  385 0174 23       		.byte	0x23
  386 0175 00       		.uleb128 0
  387 0176 0D       		.uleb128 0xd
-ARM GAS  /tmp/cc78kMuu.s 			page 8
+ARM GAS  /tmp/ccpFqnjk.s 			page 8
 
 
  388 0177 91010000 		.4byte	.LASF22
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  442 01e6 01       		.byte	0x1
  443 01e7 17000000 		.4byte	.LASF26
  444 01eb 01       		.byte	0x1
-ARM GAS  /tmp/cc78kMuu.s 			page 9
+ARM GAS  /tmp/ccpFqnjk.s 			page 9
 
 
  445 01ec 60       		.byte	0x60
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  499 026a 14000000 		.4byte	.LVL9
  500 026e A0020000 		.4byte	0x2a0
  501 0272 80020000 		.4byte	0x280
-ARM GAS  /tmp/cc78kMuu.s 			page 10
+ARM GAS  /tmp/ccpFqnjk.s 			page 10
 
 
  502 0276 11       		.uleb128 0x11
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  556 0000 01       		.uleb128 0x1
  557 0001 11       		.uleb128 0x11
  558 0002 01       		.byte	0x1
-ARM GAS  /tmp/cc78kMuu.s 			page 11
+ARM GAS  /tmp/ccpFqnjk.s 			page 11
 
 
  559 0003 25       		.uleb128 0x25
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  613 0039 35       		.uleb128 0x35
  614 003a 00       		.byte	0
  615 003b 49       		.uleb128 0x49
-ARM GAS  /tmp/cc78kMuu.s 			page 12
+ARM GAS  /tmp/ccpFqnjk.s 			page 12
 
 
  616 003c 13       		.uleb128 0x13
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  670 0072 3B       		.uleb128 0x3b
  671 0073 05       		.uleb128 0x5
  672 0074 49       		.uleb128 0x49
-ARM GAS  /tmp/cc78kMuu.s 			page 13
+ARM GAS  /tmp/ccpFqnjk.s 			page 13
 
 
  673 0075 13       		.uleb128 0x13
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  727 00ab 0B       		.uleb128 0xb
  728 00ac 3B       		.uleb128 0x3b
  729 00ad 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc78kMuu.s 			page 14
+ARM GAS  /tmp/ccpFqnjk.s 			page 14
 
 
  730 00ae 27       		.uleb128 0x27
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  784 00ea 03       		.uleb128 0x3
  785 00eb 0E       		.uleb128 0xe
  786 00ec 3A       		.uleb128 0x3a
-ARM GAS  /tmp/cc78kMuu.s 			page 15
+ARM GAS  /tmp/ccpFqnjk.s 			page 15
 
 
  787 00ed 0B       		.uleb128 0xb
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  841 0129 16       		.uleb128 0x16
  842 012a 34       		.uleb128 0x34
  843 012b 00       		.byte	0
-ARM GAS  /tmp/cc78kMuu.s 			page 16
+ARM GAS  /tmp/ccpFqnjk.s 			page 16
 
 
  844 012c 03       		.uleb128 0x3
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  898 0162 0C       		.uleb128 0xc
  899 0163 00       		.byte	0
  900 0164 00       		.byte	0
-ARM GAS  /tmp/cc78kMuu.s 			page 17
+ARM GAS  /tmp/ccpFqnjk.s 			page 17
 
 
  901 0165 00       		.byte	0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  955 0084 0100     		.2byte	0x1
  956 0086 51       		.byte	0x51
  957 0087 13000000 		.4byte	.LVL5-1
-ARM GAS  /tmp/cc78kMuu.s 			page 18
+ARM GAS  /tmp/ccpFqnjk.s 			page 18
 
 
  958 008b 22000000 		.4byte	.LVL6
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  1012 000e 0000     		.2byte	0
  1013 0010 00000000 		.4byte	.LFB63
  1014 0014 28000000 		.4byte	.LFE63-.LFB63
-ARM GAS  /tmp/cc78kMuu.s 			page 19
+ARM GAS  /tmp/ccpFqnjk.s 			page 19
 
 
  1015 0018 00000000 		.4byte	.LFB64
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  1049      00
  1050              	.LASF2:
  1051 004e 756E7369 		.ascii	"unsigned char\000"
-ARM GAS  /tmp/cc78kMuu.s 			page 20
+ARM GAS  /tmp/ccpFqnjk.s 			page 20
 
 
  1051      676E6564 
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  1070 011e 63686172 		.ascii	"char\000"
  1070      00
  1071              	.LASF28:
-ARM GAS  /tmp/cc78kMuu.s 			page 21
+ARM GAS  /tmp/ccpFqnjk.s 			page 21
 
 
  1072 0123 6D6F6465 		.ascii	"mode\000"
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  1097      757300
  1098              	.LASF25:
  1099 01da 62697473 		.ascii	"bits\000"
-ARM GAS  /tmp/cc78kMuu.s 			page 22
+ARM GAS  /tmp/ccpFqnjk.s 			page 22
 
 
  1099      00
@@ -1279,25 +1279,25 @@ ARM GAS  /tmp/cc78kMuu.s 			page 1
  1107 0208 494F4275 		.ascii	"IOBus\000"
  1107      7300
  1108              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.4 20130913 (release) [ARM/embedded-4_7-br
-ARM GAS  /tmp/cc78kMuu.s 			page 23
+ARM GAS  /tmp/ccpFqnjk.s 			page 23
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 pal.c
-     /tmp/cc78kMuu.s:19     .text.palReadBus:00000000 $t
-     /tmp/cc78kMuu.s:25     .text.palReadBus:00000000 palReadBus
-     /tmp/cc78kMuu.s:64     .text.palReadBus:00000024 $d
-     /tmp/cc78kMuu.s:69     .text.palWriteBus:00000000 $t
-     /tmp/cc78kMuu.s:75     .text.palWriteBus:00000000 palWriteBus
-     /tmp/cc78kMuu.s:122    .text.palWriteBus:00000034 $d
-     /tmp/cc78kMuu.s:127    .text.palSetBusMode:00000000 $t
-     /tmp/cc78kMuu.s:133    .text.palSetBusMode:00000000 palSetBusMode
-     /tmp/cc78kMuu.s:177    .text.palSetBusMode:00000028 $d
-     /tmp/cc78kMuu.s:182    .rodata.str1.4:00000000 $d
+     /tmp/ccpFqnjk.s:19     .text.palReadBus:00000000 $t
+     /tmp/ccpFqnjk.s:25     .text.palReadBus:00000000 palReadBus
+     /tmp/ccpFqnjk.s:64     .text.palReadBus:00000024 $d
+     /tmp/ccpFqnjk.s:69     .text.palWriteBus:00000000 $t
+     /tmp/ccpFqnjk.s:75     .text.palWriteBus:00000000 palWriteBus
+     /tmp/ccpFqnjk.s:122    .text.palWriteBus:00000034 $d
+     /tmp/ccpFqnjk.s:127    .text.palSetBusMode:00000000 $t
+     /tmp/ccpFqnjk.s:133    .text.palSetBusMode:00000000 palSetBusMode
+     /tmp/ccpFqnjk.s:177    .text.palSetBusMode:00000028 $d
+     /tmp/ccpFqnjk.s:182    .rodata.str1.4:00000000 $d
                      .debug_frame:00000010 $d
-     /tmp/cc78kMuu.s:68     .text.palReadBus:00000028 $t
-     /tmp/cc78kMuu.s:126    .text.palWriteBus:00000038 $t
-     /tmp/cc78kMuu.s:181    .text.palSetBusMode:0000002c $t
+     /tmp/ccpFqnjk.s:68     .text.palReadBus:00000028 $t
+     /tmp/ccpFqnjk.s:126    .text.palWriteBus:00000038 $t
+     /tmp/ccpFqnjk.s:181    .text.palSetBusMode:0000002c $t
 
 UNDEFINED SYMBOLS
 chDbgPanic
