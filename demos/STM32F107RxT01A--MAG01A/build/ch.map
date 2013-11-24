@@ -9,7 +9,7 @@ Archive member included because of file (symbol)
 /usr/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/libgcc.a(_arm_truncdfsf2.o)
                               build/obj/chprintf.o (__aeabi_d2f)
 /usr/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
-                              build/obj/MAG01A.o (__aeabi_ui2f)
+                              build/obj/MAG01A.o (__aeabi_i2f)
 /usr/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/libgcc.a(_arm_muldivsf3.o)
                               build/obj/MAG01A.o (__aeabi_fdiv)
 /usr/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/libgcc.a(_arm_cmpsf2.o)
@@ -1595,7 +1595,7 @@ destructors     0x08000150        0x0
                 0x20010000                __heap_end__ = __ram_end__
 OUTPUT(build/ch.elf elf32-littlearm)
 
-.debug_info     0x00000000    0x116bc
+.debug_info     0x00000000    0x11693
  .debug_info    0x00000000      0x2a8 build/obj/crt0.o
  .debug_info    0x000002a8      0x1f0 build/obj/vectors.o
  .debug_info    0x00000498       0x9a build/obj/chcore.o
@@ -1623,11 +1623,11 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_info    0x0000cda9     0x1144 build/obj/serial_lld.o
  .debug_info    0x0000deed      0x1a0 build/obj/board.o
  .debug_info    0x0000e08d      0x603 build/obj/chprintf.o
- .debug_info    0x0000e690      0xfe5 build/obj/MAG01A.o
- .debug_info    0x0000f675      0xeda build/obj/i2cGetErr.o
- .debug_info    0x0001054f     0x116d build/obj/main.o
+ .debug_info    0x0000e690      0xfbc build/obj/MAG01A.o
+ .debug_info    0x0000f64c      0xeda build/obj/i2cGetErr.o
+ .debug_info    0x00010526     0x116d build/obj/main.o
 
-.debug_abbrev   0x00000000     0x3d91
+.debug_abbrev   0x00000000     0x3d82
  .debug_abbrev  0x00000000       0xdc build/obj/crt0.o
  .debug_abbrev  0x000000dc       0xb1 build/obj/vectors.o
  .debug_abbrev  0x0000018d       0x44 build/obj/chcore.o
@@ -1655,9 +1655,9 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_abbrev  0x00003088      0x364 build/obj/serial_lld.o
  .debug_abbrev  0x000033ec       0xe5 build/obj/board.o
  .debug_abbrev  0x000034d1      0x213 build/obj/chprintf.o
- .debug_abbrev  0x000036e4      0x22f build/obj/MAG01A.o
- .debug_abbrev  0x00003913      0x21f build/obj/i2cGetErr.o
- .debug_abbrev  0x00003b32      0x25f build/obj/main.o
+ .debug_abbrev  0x000036e4      0x220 build/obj/MAG01A.o
+ .debug_abbrev  0x00003904      0x21f build/obj/i2cGetErr.o
+ .debug_abbrev  0x00003b23      0x25f build/obj/main.o
 
 .debug_aranges  0x00000000      0x878
  .debug_aranges
@@ -1753,7 +1753,7 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_ranges  0x00000fa0       0x10 build/obj/i2cGetErr.o
  .debug_ranges  0x00000fb0       0x20 build/obj/main.o
 
-.debug_line     0x00000000     0x49cf
+.debug_line     0x00000000     0x49cc
  .debug_line    0x00000000      0x13c build/obj/crt0.o
  .debug_line    0x0000013c       0xb4 build/obj/vectors.o
  .debug_line    0x000001f0       0x53 build/obj/chcore.o
@@ -1781,11 +1781,11 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_line    0x00003978      0x327 build/obj/serial_lld.o
  .debug_line    0x00003c9f      0x159 build/obj/board.o
  .debug_line    0x00003df8      0x301 build/obj/chprintf.o
- .debug_line    0x000040f9      0x2ea build/obj/MAG01A.o
- .debug_line    0x000043e3      0x2b4 build/obj/i2cGetErr.o
- .debug_line    0x00004697      0x338 build/obj/main.o
+ .debug_line    0x000040f9      0x2e7 build/obj/MAG01A.o
+ .debug_line    0x000043e0      0x2b4 build/obj/i2cGetErr.o
+ .debug_line    0x00004694      0x338 build/obj/main.o
 
-.debug_str      0x00000000     0x219e
+.debug_str      0x00000000     0x218c
  .debug_str     0x00000000      0x220 build/obj/crt0.o
                                 0x25a (size before relaxing)
  .debug_str     0x00000220      0x145 build/obj/vectors.o
@@ -1840,11 +1840,11 @@ OUTPUT(build/ch.elf elf32-littlearm)
                                 0x1ee (size before relaxing)
  .debug_str     0x00001fe4       0xea build/obj/chprintf.o
                                 0x254 (size before relaxing)
- .debug_str     0x000020ce       0x70 build/obj/MAG01A.o
-                                0x709 (size before relaxing)
- .debug_str     0x0000213e       0x24 build/obj/i2cGetErr.o
+ .debug_str     0x000020ce       0x5e build/obj/MAG01A.o
+                                0x6f7 (size before relaxing)
+ .debug_str     0x0000212c       0x24 build/obj/i2cGetErr.o
                                 0x6ec (size before relaxing)
- .debug_str     0x00002162       0x3c build/obj/main.o
+ .debug_str     0x00002150       0x3c build/obj/main.o
                                 0x79a (size before relaxing)
 
 .comment        0x00000000       0x70
@@ -1959,7 +1959,7 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .ARM.attributes
                 0x000006c5       0x1d /usr/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/libgcc.a(_arm_fixsfsi.o)
 
-.debug_frame    0x00000000     0x15b4
+.debug_frame    0x00000000     0x15b8
  .debug_frame   0x00000000       0x50 build/obj/crt0.o
  .debug_frame   0x00000050       0x20 build/obj/vectors.o
  .debug_frame   0x00000070       0x20 build/obj/chcore.o
@@ -1987,11 +1987,11 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_frame   0x00001384       0x94 build/obj/serial_lld.o
  .debug_frame   0x00001418       0x30 build/obj/board.o
  .debug_frame   0x00001448       0x70 build/obj/chprintf.o
- .debug_frame   0x000014b8       0x60 build/obj/MAG01A.o
- .debug_frame   0x00001518       0x30 build/obj/i2cGetErr.o
- .debug_frame   0x00001548       0x6c build/obj/main.o
+ .debug_frame   0x000014b8       0x64 build/obj/MAG01A.o
+ .debug_frame   0x0000151c       0x30 build/obj/i2cGetErr.o
+ .debug_frame   0x0000154c       0x6c build/obj/main.o
 
-.debug_loc      0x00000000     0xa28f
+.debug_loc      0x00000000     0xa25e
  .debug_loc     0x00000000      0x12c build/obj/chcore_v7m.o
  .debug_loc     0x0000012c      0x1c9 build/obj/nvic.o
  .debug_loc     0x000002f5       0xcc build/obj/chsys.o
@@ -2015,9 +2015,9 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_loc     0x00008a45      0x928 build/obj/i2c_lld.o
  .debug_loc     0x0000936d      0x2c7 build/obj/serial_lld.o
  .debug_loc     0x00009634      0x913 build/obj/chprintf.o
- .debug_loc     0x00009f47      0x1b7 build/obj/MAG01A.o
- .debug_loc     0x0000a0fe       0xd7 build/obj/i2cGetErr.o
- .debug_loc     0x0000a1d5       0xba build/obj/main.o
+ .debug_loc     0x00009f47      0x186 build/obj/MAG01A.o
+ .debug_loc     0x0000a0cd       0xd7 build/obj/i2cGetErr.o
+ .debug_loc     0x0000a1a4       0xba build/obj/main.o
 
 Cross Reference Table
 
@@ -2165,11 +2165,11 @@ __aeabi_fsub                                      /usr/bin/../lib/gcc/arm-none-e
 __aeabi_i2d                                       /usr/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/libgcc.a(_arm_addsubdf3.o)
                                                   build/obj/chprintf.o
 __aeabi_i2f                                       /usr/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
+                                                  build/obj/MAG01A.o
 __aeabi_l2d                                       /usr/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/libgcc.a(_arm_addsubdf3.o)
 __aeabi_l2f                                       /usr/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
 __aeabi_ui2d                                      /usr/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/libgcc.a(_arm_addsubdf3.o)
 __aeabi_ui2f                                      /usr/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
-                                                  build/obj/MAG01A.o
 __aeabi_ul2d                                      /usr/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/libgcc.a(_arm_addsubdf3.o)
 __aeabi_ul2f                                      /usr/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
 __cmpsf2                                          /usr/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/libgcc.a(_arm_cmpsf2.o)

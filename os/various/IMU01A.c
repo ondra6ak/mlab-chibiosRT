@@ -30,9 +30,6 @@ void accRead (I2CDriver *i2c_drv, uint8_t addr, float *acc_x, float *acc_y, floa
 {
     uint8_t tx_data[8]; 
     uint8_t rx_data[6];
-    uint16_t raw_x;
-    uint16_t raw_y;
-    uint16_t raw_z;
     msg_t msg;
 
    	tx_data[0] = IMU01A_ACC_AXIS;
@@ -41,13 +38,12 @@ void accRead (I2CDriver *i2c_drv, uint8_t addr, float *acc_x, float *acc_y, floa
     i2cReleaseBus (i2c_drv);
     if (msg != RDY_OK) i2cGetErr(i2c_drv, &SD_DRV);
       
-    raw_x = (rx_data[0] << 8) | rx_data[1];
-    raw_y = (rx_data[2] << 8) | rx_data[3];
-    raw_z = (rx_data[4] << 8) | rx_data[5];
-
-    *acc_x = ((float) raw_x) / 1000;
-    *acc_y = ((float) raw_y) / 1000;
-    *acc_z = ((float) raw_z) / 1000;
+    *acc_x = (rx_data[0] << 8) | rx_data[1];
+    *acc_y = (rx_data[2] << 8) | rx_data[3];
+    *acc_z = (rx_data[4] << 8) | rx_data[5];
+    *acc_x = *acc_x / 1000;
+    *acc_y = *acc_y / 1000;
+    *acc_z = *acc_z / 1000;
 }
 
 /*gyroscope configuration*/
@@ -76,9 +72,6 @@ void gyroRead (I2CDriver *i2c_drv, uint8_t addr, float *gyro_x, float *gyro_y, f
 {
     uint8_t tx_data[8]; 
     uint8_t rx_data[6];
-    uint16_t raw_x;
-    uint16_t raw_y;
-    uint16_t raw_z;
     uint8_t lsb;
     msg_t msg;
 
@@ -93,7 +86,7 @@ void gyroRead (I2CDriver *i2c_drv, uint8_t addr, float *gyro_x, float *gyro_y, f
     msg = i2cMasterTransmitTimeout (i2c_drv, addr, tx_data, 1, rx_data, 6, MS2ST(4));
     i2cReleaseBus (i2c_drv);
     if (msg != RDY_OK) i2cGetErr(i2c_drv, &SD_DRV);
-    raw_x = (lsb << 8) | rx_data[0];
+    *gyro_x = (lsb << 8) | rx_data[0];
     
     /*reading most significant byte Y*/
     tx_data[0] = IMU01A_GYRO_Y_H;
@@ -106,7 +99,7 @@ void gyroRead (I2CDriver *i2c_drv, uint8_t addr, float *gyro_x, float *gyro_y, f
     msg = i2cMasterTransmitTimeout (i2c_drv, addr, tx_data, 1, rx_data, 6, MS2ST(4));
     i2cReleaseBus (i2c_drv);
     if (msg != RDY_OK) i2cGetErr(i2c_drv, &SD_DRV);
-    raw_y = (lsb << 8) | rx_data[0];
+    *gyro_y = (lsb << 8) | rx_data[0];
 
     /*reading most significant byte Z*/
     tx_data[0] = IMU01A_GYRO_Z_H;
@@ -118,12 +111,12 @@ void gyroRead (I2CDriver *i2c_drv, uint8_t addr, float *gyro_x, float *gyro_y, f
     tx_data[0] = IMU01A_GYRO_Z_L;
     msg = i2cMasterTransmitTimeout (i2c_drv, addr, tx_data, 1, rx_data, 6, MS2ST(4));
     i2cReleaseBus (i2c_drv);
-    if (msg != RDY_OK) i2cGetErr(i2c_drv, &SD_DRV);
-    raw_z= (lsb << 8) | rx_data[0];
+   if (msg != RDY_OK) i2cGetErr(i2c_drv, &SD_DRV);
+    *gyro_z= (lsb << 8) | rx_data[0];
 
-    *gyro_x = ((float) raw_x) / 1000;
-    *gyro_y = ((float) raw_y) / 1000;
-    *gyro_z = ((float) raw_z) / 1000;
+    *gyro_x = *gyro_x / 1000;
+    *gyro_y = *gyro_y / 1000;
+    *gyro_z = *gyro_z / 1000;
 }
 
 /*temperature reading*/

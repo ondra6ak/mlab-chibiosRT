@@ -45,9 +45,6 @@ void magRead (I2CDriver *i2c_drv, uint8_t addr, float *mag_x, float *mag_y, floa
 {
     uint8_t tx_data[8]; 
     uint8_t rx_data[6];
-    uint16_t raw_x;
-    uint16_t raw_y;
-    uint16_t raw_z;
     msg_t msg;
 
    	tx_data[0] = MAG01A_AXIS;
@@ -56,11 +53,10 @@ void magRead (I2CDriver *i2c_drv, uint8_t addr, float *mag_x, float *mag_y, floa
     i2cReleaseBus (i2c_drv);
     if (msg != RDY_OK) i2cGetErr(i2c_drv, &SD_DRV);
 
-    raw_x = (rx_data[0] << 8) | rx_data[1];
-    raw_y = (rx_data[4] << 8) | rx_data[5];
-    raw_z = (rx_data[2] << 8) | rx_data[3];
-
-    *mag_x = ((float) raw_x) / 1000;
-    *mag_y = ((float) raw_y) / 1000;
-    *mag_z = ((float) raw_z) / 1000;
+    *mag_x = (rx_data[0] << 8) | rx_data[1];
+    *mag_y = (rx_data[4] << 8) | rx_data[5];
+    *mag_z = (rx_data[2] << 8) | rx_data[3];
+    *mag_x = *mag_x / 1000;
+    *mag_y = *mag_y / 1000;
+    *mag_z = *mag_z / 1000;
 }

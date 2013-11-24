@@ -24,25 +24,25 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
   3 .bss          00000a30  20000800  080048c8  00010800  2**3
                   ALLOC
-  4 .debug_info   000116bc  00000000  00000000  0000c8c8  2**0
+  4 .debug_info   00011693  00000000  00000000  0000c8c8  2**0
                   CONTENTS, READONLY, DEBUGGING
-  5 .debug_abbrev 00003d91  00000000  00000000  0001df84  2**0
+  5 .debug_abbrev 00003d82  00000000  00000000  0001df5b  2**0
                   CONTENTS, READONLY, DEBUGGING
-  6 .debug_aranges 00000878  00000000  00000000  00021d15  2**0
+  6 .debug_aranges 00000878  00000000  00000000  00021cdd  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_ranges 00000fd0  00000000  00000000  0002258d  2**0
+  7 .debug_ranges 00000fd0  00000000  00000000  00022555  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_line   000049cf  00000000  00000000  0002355d  2**0
+  8 .debug_line   000049cc  00000000  00000000  00023525  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_str    0000219e  00000000  00000000  00027f2c  2**0
+  9 .debug_str    0000218c  00000000  00000000  00027ef1  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .comment      00000070  00000000  00000000  0002a0ca  2**0
+ 10 .comment      00000070  00000000  00000000  0002a07d  2**0
                   CONTENTS, READONLY
- 11 .ARM.attributes 00000033  00000000  00000000  0002a13a  2**0
+ 11 .ARM.attributes 00000033  00000000  00000000  0002a0ed  2**0
                   CONTENTS, READONLY
- 12 .debug_frame  000015b4  00000000  00000000  0002a170  2**2
+ 12 .debug_frame  000015b8  00000000  00000000  0002a120  2**2
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_loc    0000a28f  00000000  00000000  0002b724  2**0
+ 13 .debug_loc    0000a25e  00000000  00000000  0002b6d8  2**0
                   CONTENTS, READONLY, DEBUGGING
 SYMBOL TABLE:
 08000000 l    d  startup	00000000 startup
@@ -382,7 +382,7 @@ SYMBOL TABLE:
 080037a0 g     F .text	0000007c sd_lld_start
 00000400 g       *ABS*	00000000 __main_stack_size__
 08001270  w    F .text	00000002 VectorFC
-08003dc0 g     F .text	000000a8 magRead
+08003dc0 g     F .text	000000b0 magRead
 08001640 g     F .text	00000034 dbg_check_unlock_from_isr
 080001f8 g     F .text	0000027a __subdf3
 20000800 g       .stacks	00000000 __process_stack_end__
