@@ -37,7 +37,7 @@ static msg_t heartBeat (void*arg)
 static WORKING_AREA (magDemoWrkArea, 512);
 static msg_t magDemo (void*arg)
 {
-	uint16_t x, y, z;
+	float x, y, z;
 
     /*magnetometer configuration*/
     magInit(&I2CD2, MAG01A);
@@ -47,7 +47,7 @@ static msg_t magDemo (void*arg)
     {
         /*magnetometer reading*/
         magRead(&I2CD2, MAG01A, &x, &y, &z);
-        chprintf ((BaseSequentialStream *)&SD2, "%d X     %d Y     %d Z\n\r", x, y, z);    	
+        chprintf ((BaseSequentialStream *)&SD2, "%f X     %f Y     %f Z\n\r", x, y, z);    	
     }
 }
 
