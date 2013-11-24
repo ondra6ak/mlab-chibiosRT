@@ -74,8 +74,8 @@
 /*
  * Port A setup.
  * Everything input with pull-up except:
- * PA0  - Normal input      (USART2 CTS).
- * PA1  - Alternate output  (USART2 RTS).
+ * PA0  - Input with PU     (unconnected).
+ * PA1  - Input with PU     (unconnected).
  * PA2  - Alternate output  (USART2 TX).
  * PA3  - Input with PU     (USART2 RX).
  * PA4  - Open Drain output (SPI1 NSS).
@@ -91,7 +91,7 @@
  * PA14 - Normal input      (TCK).
  * PA15 - Normal input      (TDI).
  */
-#define VAL_GPIOACRL            0xB8B78BB4      /*  PA7...PA0 */
+#define VAL_GPIOACRL            0xB8B78B88      /*  PA7...PA0 */
 #define VAL_GPIOACRH            0x4444444B      /* PA15...PA8 */
 #define VAL_GPIOAODR            0xFFFFFFFF
 

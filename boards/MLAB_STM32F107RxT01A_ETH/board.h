@@ -24,8 +24,8 @@
 /*
  * Board identifier.
  */
-#define BOARD_MLAB_STM32F107RxT01A_ETHERNET
-#define BOARD_NAME              "MLAB STM32F107RxT01A ETHERNET"
+#define BOARD_MLAB_STM32F107RxT01A_ETH
+#define BOARD_NAME              "MLAB STM32F107RxT01A ETH"
 
 /*
  * Board frequencies.
@@ -46,8 +46,8 @@
 /*
  * IO pins assignments.
  */
-#define LED_1               8   /* PB8 */
-#define LED_2               7   /* PB7 */
+#define LED1                8   /* PB8 */
+#define LED2                7   /* PB7 */
 #define SD_PROTECT          4   /* PB4 */
 #define SD_DETECT           5   /* PB5 */
 #define SPI1NSS             4   /* PA4 */
@@ -110,8 +110,8 @@
  * PB4  - Normal input      (TRST).
  * PB5  - Input with PU     (unconnected).
  * PB6  - Input with PU     (unconnected).
- * PB7  - Push Pull output  (LED_2).
- * PB8  - Push Pull output  (LED_1).
+ * PB7  - Push Pull output  (LED2).
+ * PB8  - Push Pull output  (LED1).
  * PB9  - Input with PU     (unconnected).
  * PB10 - Input with PU     (unconnected).
  * PB11 - Alternate output  (ETH_RMII_TX_EN).
