@@ -4,6 +4,7 @@ fastest and direct data streaming and read out calibrated values.
 
 Created by Ondra Sestak 2013
 */
+
 #include <ch.h>
 #include <hal.h>
 #include <chprintf.h>

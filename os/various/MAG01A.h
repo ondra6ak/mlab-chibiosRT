@@ -3,6 +3,7 @@ Part of library for the MLAB module MAG01A.
 
 Created by Ondra Sestak 2013
 */
+
 #define MAG01A 0x1E
 #define MAG01A_AXIS 0x03
 

@@ -39,13 +39,14 @@ static msg_t magDemo (void*arg)
 {
 	uint16_t x, y, z;
 
+    /*magnetometer configuration*/
     magInit(&I2CD2, MAG01A);
     chprintf ((BaseSequentialStream *)&SD2, "Configuration done\n\r");
 
     while (true)
     {
+        /*magnetometer reading*/
         magRead(&I2CD2, MAG01A, &x, &y, &z);
-        /*tisknuti namerenych hodnot*/
         chprintf ((BaseSequentialStream *)&SD2, "%d X     %d Y     %d Z\n\r", x, y, z);    	
     }
 }
