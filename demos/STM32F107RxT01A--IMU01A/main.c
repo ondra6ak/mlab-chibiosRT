@@ -21,27 +21,27 @@ static const I2CConfig i2cCfg = {
 
 /*led blinking theard*/
 static WORKING_AREA (heartWrkArea, 32);
-static msg_t heartBeat (void*Arg)
+static msg_t heartBeat (void*arg)
 {
 	chprintf ((BaseSequentialStream *)&SD2, "\n\rHello world!\n\r");
 
-    palSetPad (GPIOB, LED_1);
-    palClearPad (GPIOB, LED_2);
+    palSetPad (GPIOB, LED1);
+    palClearPad (GPIOB, LED2);
 
 	while (true)
 	{
-		palTogglePad (GPIOB, LED_1);
-		palTogglePad (GPIOB, LED_2);
+		palTogglePad (GPIOB, LED1);
+		palTogglePad (GPIOB, LED2);
 		chThdSleepMilliseconds (250);
 	}
 }
 
 /*main sensor reading and printing out theard*/
-static WORKING_AREA (gyroDemoWrkArea, 256);
-static msg_t gyroDemo (void*arg)
+static WORKING_AREA (sensorsWrkArea, 256);
+static msg_t sensorsRead (void*arg)
 {
-    int16_t acc_x, acc_y, acc_z;
-    int16_t gyro_x, gyro_y, gyro_z;
+    float acc_x, acc_y, acc_z;
+    float gyro_x, gyro_y, gyro_z;
     uint8_t temp;
 
 	/*sensors initializing*/
@@ -58,10 +58,10 @@ static msg_t gyroDemo (void*arg)
         accRead (&I2CD2, IMU01A_ACC, &acc_x, &acc_y, &acc_z);
 
         /*printing out magnetometer values*/
-        chprintf ((BaseSequentialStream *)&SD2, "%d gX    %d gY    %d gZ    ", gyro_x, gyro_y, gyro_z);      
+        chprintf ((BaseSequentialStream *)&SD2, "%f gX    %f gY    %f gZ    ", gyro_x, gyro_y, gyro_z);      
         /*printing out accelerometer and temperature values*/
-        chprintf ((BaseSequentialStream *)&SD2, "%d aX    %d aY    %d aZ    ", acc_x, acc_y, acc_z);
-        chprintf ((BaseSequentialStream *)&SD2, "%d T    \n\r", temp);     	
+        chprintf ((BaseSequentialStream *)&SD2, "%f aX    %f aY    %f aZ    ", acc_x, acc_y, acc_z);
+        chprintf ((BaseSequentialStream *)&SD2, "%d T\n\r", temp);     	
     }
 }
 
@@ -74,10 +74,6 @@ int main (void)
 	sdStart (&SD2, NULL);
     i2cStart (&I2CD2, &i2cCfg);
 
-    palSetPadMode(GPIOB, 10, PAL_MODE_STM32_ALTERNATE_OPENDRAIN);
-    palSetPadMode(GPIOB, 11, PAL_MODE_STM32_ALTERNATE_OPENDRAIN);
-    chThdSleepMilliseconds(100);  /* Just to be safe. */
-
 	chThdCreateStatic (heartWrkArea, sizeof (heartWrkArea), NORMALPRIO, heartBeat, NULL);
-	chThdCreateStatic (gyroDemoWrkArea, sizeof (gyroDemoWrkArea), NORMALPRIO, gyroDemo, NULL);
+	chThdCreateStatic (sensorsWrkArea, sizeof (sensorsWrkArea), NORMALPRIO, sensorsRead, NULL);
 }

@@ -11,12 +11,17 @@ Created by Ondra Sestak 2013
 #define IMU01A_ACC_AXIS 0x01 
 
 #define IMU01A_GYRO 0x68
-#define IMU01A_GYRO_AXIS 0x28
+#define IMU01A_GYRO_X_L 0x28
+#define IMU01A_GYRO_X_H 0x29
+#define IMU01A_GYRO_Y_L 0x2a
+#define IMU01A_GYRO_Y_H 0x2b
+#define IMU01A_GYRO_Z_L 0x2c
+#define IMU01A_GYRO_Z_H 0x2d
 #define IMU01A_GYRO_TEMP 0x26
 
 
 void accInit (I2CDriver *i2c_drv, uint8_t addr);
-void accRead (I2CDriver *i2c_drv, uint8_t addr, int16_t *acc_x, int16_t *acc_y, int16_t *acc_z);
+void accRead (I2CDriver *i2c_drv, uint8_t addr, float *acc_x, float *acc_y, float *acc_z);
 void gyroInit (I2CDriver *i2c_drv, uint8_t addr);
-void gyroRead (I2CDriver *i2c_drv, uint8_t addr, int16_t *gyro_x, int16_t *gyro_y, int16_t *gyro_z);
+void gyroRead (I2CDriver *i2c_drv, uint8_t addr, float *gyro_x, float *gyro_y, float *gyro_z);
 void tempRead (I2CDriver *i2c_drv, uint8_t addr, uint8_t *temp);

@@ -38,16 +38,10 @@
 #define STM32F10X_CL
 
 /*
- * Ethernet PHY type.
- */
-#define BOARD_PHY_ID            MII_STE101P_ID
-#define BOARD_PHY_RMII
-
-/*
  * IO pins assignments.
  */
-#define LED_1               8   /* PB8 */
-#define LED_2               7   /* PB7 */
+#define LED1                8   /* PB8 */
+#define LED2                7   /* PB7 */
 #define SD_PROTECT          4   /* PB4 */
 #define SD_DETECT           5   /* PB5 */
 #define SPI1NSS             4   /* PA4 */
@@ -110,18 +104,18 @@
  * PB4  - Normal input      (TRST).
  * PB5  - Input with PU     (unconnected).
  * PB6  - Input with PU     (unconnected).
- * PB7  - Push Pull output  (LED_2).
- * PB8  - Push Pull output  (LED_1).
+ * PB7  - Push Pull output  (LED2).
+ * PB8  - Push Pull output  (LED1).
  * PB9  - Input with PU     (unconnected).
- * PB10 - Input with PU     (unconnected).
- * PB11 - Input with PU     (unconnected).
+ * PB10 - Open Drain        (I2C2 SCL).
+ * PB11 - Open Drain        (I2C2 SDA).
  * PB12 - Open Drain output (SPI2 NSS).
  * PB13 - Alternate output  (SPI2 SCK).
  * PB14 - Input with PU     (SPI2 MISO).
  * PB15 - Alternate output  (SPI2 MOSI).
  */
 #define VAL_GPIOBCRL            0x38844488      /*  PB7...PB0 */
-#define VAL_GPIOBCRH            0xB8B78883      /* PB15...PB8 */
+#define VAL_GPIOBCRH            0xB8B7FF83      /* PB15...PB8 */
 #define VAL_GPIOBODR            0xFFFFFFFF
 
 /*
